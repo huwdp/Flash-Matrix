@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flash Player Matrix</title>
+</head>
+
+<style type="text/css">
+  #flash-matrix
+  {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+</style>
+
+<body>
+
+
+
+<div id="flash-matrix">
+  <h1>Flash Player Matrix</h1>
+  <p>Flash Player Conformance Matrix. WIP</p>
+</div>
+
+<script>
+var flashPlayers = ["adobeflash", "shumway", "lightspark", "gnash"];
+var container = document.getElementById("flash-matrix");
+fetch('flash-matrix.json')
+  .then(response => response.text())
+  .then((data) => {
+    data2 = JSON.parse(data);
+    for (var category in data2) {
+      var table = document.createElement("table");
+
+      var header = document.createElement("tr");
+      var blankHeaderItem = document.createElement("td");
+      blankHeaderItem.innerHTML = "<strong>" + category + "</strong>";
+      header.appendChild(blankHeaderItem);
+      for (player in flashPlayers)
+      {
+        var playerTd = document.createElement("td");
+        playerTd.innerHTML = flashPlayers[player];
+        header.appendChild(playerTd);
+      }
+      table.appendChild(header);
+
+      for (feature in data2[category])
+      {
+        var tr = document.createElement("tr");
+
+        var featureTd = document.createElement("td");
+        featureTd.innerHTML = feature;
+        featureTd.style.width = "300px";
+        tr.appendChild(featureTd);
+
+        for (player in flashPlayers)
+        {
+          var td = document.createElement("td");
+
+          var featureResult = data2[category][feature][flashPlayers[player]];
+          td.innerHTML = featureResult;
+
+          if (featureResult == "Yes")
+          {
+            td.style.backgroundColor = "green";
+          }
+          else if (featureResult == "No")
+          {
+            td.style.backgroundColor = "orange";
+          }
+          else
+          {
+            td.style.backgroundColor = "yellow";
+          }
+
+          tr.appendChild(td);
+        }
+        table.appendChild(tr);
+      }
+
+      container.appendChild(table);
+      var breakLine = document.createElement("br");
+      container.appendChild(breakLine);
+
+      /*
+      var statsTable = document.createElement("table");
+
+      var statsHeader = document.createElement("tr");
+
+      for (var player in flashPlayers)
+      {
+        var playerItem = document.createElement("td");
+        playerItem.innerHTML = flashPlayers[player];
+        statsHeader.appendChild(playerItem);
+      }
+      table.appendChild(statsHeader);
+
+      var statsContent = document.createElement("tr");
+
+      var featureTotalCount = 0;
+      for (category in data2)
+      {
+        for (feature in data2[category])
+        {
+          featureTotalCount++;
+        }
+      }
+
+      for (player in flashPlayers)
+      {
+        var playerFeatureCount = 0;
+        for (category in data2)
+        {
+          for (feature in data2[category])
+          {
+            if (data2[category][feature][player] == "Yes")
+            {
+              playerFeatureCount++;
+            }
+          }
+        }
+      }
+
+      //table.appendChild(statsContent);
+      container.appendChild(table);
+      */
+    }
+
+
+});
+</script>
+
+</body>
+</html>
