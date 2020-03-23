@@ -20,6 +20,7 @@
 <div id="flash-matrix">
   <h1>Flash Player Matrix</h1>
   <p>Flash Player Conformance Matrix. WIP</p>
+  <p>The matrix gives an appromimate compatibility of <a href="https://mozilla.github.io/shumway/">Shumway</a>, <a href="https://lightspark.github.io/">Lightspark</a> and <a href="https://www.gnu.org/software/gnash/">Gnash</a> flash players compared to Adobe Flash Player</p>
 </div>
 
 <script>
@@ -28,8 +29,43 @@ var container = document.getElementById("flash-matrix");
 fetch('flash-matrix.json')
   .then(response => response.text())
   .then((data) => {
-    data2 = JSON.parse(data);
-    for (var category in data2) {
+    json = JSON.parse(data);
+
+    var statsTable = document.createElement("table");
+    var featureTotalCount = 0;
+    for (category in json)
+    {
+      for (feature in json[category])
+      {
+        featureTotalCount++;
+      }
+    }
+
+    for (player in flashPlayers)
+    {
+      var playerFeatureCount = 0;
+      for (category in json)
+      {
+        for (feature in json[category])
+        {
+          if (json[category][feature][flashPlayers[player]] == "Yes")
+          {
+            playerFeatureCount++;
+          }
+        }
+      }
+      var playerStatsTr = document.createElement("tr");
+      var playerName = document.createElement("td");
+      playerName.innerHTML = flashPlayers[player];
+      var playerComplience = document.createElement("td");
+      playerComplience.innerHTML = playerFeatureCount;
+      playerStatsTr.appendChild(playerName);
+      playerStatsTr.appendChild(playerComplience);
+      statsTable.appendChild(playerStatsTr);
+    }
+    container.appendChild(statsTable);
+
+    for (var category in json) {
       var table = document.createElement("table");
 
       var header = document.createElement("tr");
@@ -44,7 +80,7 @@ fetch('flash-matrix.json')
       }
       table.appendChild(header);
 
-      for (feature in data2[category])
+      for (feature in json[category])
       {
         var tr = document.createElement("tr");
 
@@ -57,7 +93,7 @@ fetch('flash-matrix.json')
         {
           var td = document.createElement("td");
 
-          var featureResult = data2[category][feature][flashPlayers[player]];
+          var featureResult = json[category][feature][flashPlayers[player]];
           td.innerHTML = featureResult;
 
           if (featureResult == "Yes")
@@ -81,49 +117,6 @@ fetch('flash-matrix.json')
       container.appendChild(table);
       var breakLine = document.createElement("br");
       container.appendChild(breakLine);
-
-      /*
-      var statsTable = document.createElement("table");
-
-      var statsHeader = document.createElement("tr");
-
-      for (var player in flashPlayers)
-      {
-        var playerItem = document.createElement("td");
-        playerItem.innerHTML = flashPlayers[player];
-        statsHeader.appendChild(playerItem);
-      }
-      table.appendChild(statsHeader);
-
-      var statsContent = document.createElement("tr");
-
-      var featureTotalCount = 0;
-      for (category in data2)
-      {
-        for (feature in data2[category])
-        {
-          featureTotalCount++;
-        }
-      }
-
-      for (player in flashPlayers)
-      {
-        var playerFeatureCount = 0;
-        for (category in data2)
-        {
-          for (feature in data2[category])
-          {
-            if (data2[category][feature][player] == "Yes")
-            {
-              playerFeatureCount++;
-            }
-          }
-        }
-      }
-
-      //table.appendChild(statsContent);
-      container.appendChild(table);
-      */
     }
 
 

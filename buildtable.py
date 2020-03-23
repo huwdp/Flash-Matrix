@@ -469,7 +469,7 @@ for subdir, dirs, files in os.walk(dir):
             fileKey = file.replace('.ts', '')
             if subDirKey in featureMatrix.keys():
                 if lines.find('notImplemented(') > 0:
-                    featureMatrix[subDirKey][fileKey]['shumway'] = 'Partially' # No
+                    featureMatrix[subDirKey][fileKey]['shumway'] = 'No' # No
                 elif lines.find('somewhatImplemented(') > 0:
                     featureMatrix[subDirKey][fileKey]['shumway'] = 'Partially'
                 else:
