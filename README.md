@@ -8,12 +8,20 @@ python3 build-matrix.py
 
 ### Prerequisites
 
-'''
+```
 sudo apt-get install python3 git
 git clone https://github.com/mozilla/shumway.git
 git clone https://github.com/strk/gnash.git
 git clone https://github.com/lightspark/lightspark.git
-'''
+```
+
+## Inatall
+```
+sudo apt-get install python3
+sudo apt-get install pip3
+pip install lxml
+pip install requests
+```
 
 ## License
 
