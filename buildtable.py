@@ -5,10 +5,42 @@ import json
 import re
 
 featureMatrix = {
-    'accessibility' : {'Accessibility':dict(),'AccessibilityImplementation':dict(), 'AccessibilityProperties': dict(), 'ISearchableText': dict(), 'ISimpleTextSelection': dict()},
-    'automation' : {'ActionGenerator': dict(), 'AutomationAction':dict(), 'Configuration':dict(), 'KeyboardAutomationAction':dict(), 'MouseAutomationAction':dict(), 'StageCapture':dict(), 'StageCaptureEvent':dict()},
-    'desktop' : {'Clipboard':dict(), 'ClipboardFormats':dict(), 'ClipboardTransferMode':dict()},
-    'display' : {
+    'accessibility' : { # Checked
+        'Accessibility':dict(),
+        'AccessibilityImplementation':dict(),
+        'AccessibilityProperties': dict(),
+        'ISearchableText': dict(),
+        'ISimpleTextSelection': dict()
+    },
+    #'automation' : { # Checked
+    #    'ActionGenerator': dict(),
+    #    'AutomationAction':dict(),
+    #    'Configuration':dict(),
+    #    'KeyboardAutomationAction':dict(),
+    #    'MouseAutomationAction':dict(),
+    #    'StageCapture':dict(),
+    #    'StageCaptureEvent':dict()
+    #},
+    'desktop' : { # Checked
+        'Clipboard':dict(),
+        'ClipboardFormats':dict(),
+        'ClipboardTransferMode':dict(),
+        'IFilePromise':dict()
+     	#Icon AIR
+     	#InteractiveIcon AIR
+     	#InvokeEventReason AIR
+     	#NativeApplication AIR
+     	#NativeDragActions AIR
+     	#NativeDragManager AIR
+     	#NativeDragOptions AIR
+     	#NativeProcess AIR
+     	#NativeProcessStartupInfo AIR
+     	#NotificationType AIR
+     	#SystemIdleMode AIR
+     	#SystemTrayIcon AIR
+     	#Updater AIR
+    },
+    'display' : { # Checked
         'AVM1Movie': dict(),
         'ActionScriptVersion': dict(),
         'AVM1Movie': dict(),
@@ -22,7 +54,7 @@ featureMatrix = {
         'ColorCorrectionSupport': dict(),
         'DisplayObject': dict(),
         'DisplayObjectContainer': dict(),
-        'FocusDirection': dict(),
+        #'FocusDirection': dict(), Is AIR
         'FrameLabel': dict(),
         'GradientType': dict(),
         'Graphics': dict(),
@@ -53,11 +85,20 @@ featureMatrix = {
         'MorphShape': dict(),
         'MovieClip': dict(),
         'MovieClipSoundStream': dict(),
-        'NativeMenu': dict(),
-        'NativeMenuItem': dict(),
+        #'NativeMenu': dict(),
+     	#'NativeMenuItem': dict(),
+     	#'NativeWindow': dict(),
+     	#'NativeWindowDisplayState': dict(),
+     	#'NativeWindowInitOptions': dict(),
+     	#'NativeWindowRenderMode': dict(),
+     	#'NativeWindowResize': dict(),
+     	#'NativeWindowSystemChrome': dict(),
+     	#'NativeWindowType': dict(),
         'PixelSnapping': dict(),
         'PNGEncoderOptions': dict(),
         'Scene': dict(),
+        #Screen
+        #ScreenMode
         'Shader': dict(),
         'ShaderData': dict(),
         'ShaderInput': dict(),
@@ -72,66 +113,53 @@ featureMatrix = {
         'Stage': dict(),
         'Stage3D': dict(),
         'StageAlign': dict(),
+        #	StageAspectRatio    
         'StageDisplayState': dict(),
+        #StageOrientation
         'StageQuality': dict(),
         'StageScaleMode': dict(),
         'SWFVersion': dict(),
         'TriangleCulling': dict()
     },
-    'display3D' : {
+    'display3D' : { # Checked
         'Context3D': dict(),
         'Context3DBlendFactor': dict(),
-        'Bitmap': dict(),
-        'BitmapData': dict(),
+        'Context3DBufferUsage': dict(),
         'Context3DClearMask': dict(),
-        'BitmapDataChannel': dict(),
-        'BitmapEncodingColorSpace': dict(),
         'Context3DCompareMode': dict(),
-        'BlendMode': dict(),
-        'CapsStyle': dict(),
+        #Context3DFillMode   AIR
+        'Context3DMipFilter': dict(),
         'Context3DProfile': dict(),
-        'ColorCorrection': dict(),
-        'ColorCorrectionSupport': dict(),
         'Context3DProgramType': dict(),
-        'DisplayObject': dict(),
-        'DisplayObjectContainer': dict(),
         'Context3DRenderMode': dict(),
-        'FocusDirection': dict(),
-        'FrameLabel': dict(),
         'Context3DStencilAction': dict(),
-        'GradientType': dict(),
-        'Graphics': dict(),
+        'Context3DTextureFilter': dict(),
         'Context3DTextureFormat': dict(),
-        'GraphicsBitmapFill': dict(),
-        'GraphicsEndFill': dict(),
         'Context3DTriangleFace': dict(),
-        'GraphicsGradientFill': dict(),
-        'GraphicsPath': dict(),
         'Context3DVertexBufferFormat': dict(),
-        'GraphicsPathCommand': dict(),
-        'GraphicsPathWinding': dict(),
+        'Context3DWrapMode': dict(),
         'IndexBuffer3D': dict(),
-        'GraphicsShaderFill': dict(),
-        'GraphicsSolidFill': dict(),
         'Program3D': dict(),
-        'GraphicsStroke': dict(),
-        'GraphicsTrianglePath': dict(),
         'VertexBuffer3D': dict(),
-        'IBitmapDrawable': dict()
     },
     'errors' : {
-        'InvalidSWFError': dict(),
-        'MemoryError': dict(),
-        'ScriptTimeoutError': dict(),
-        'StackOverflowError': dict(),
-        'IllegalOperationError': dict(),
+        #'DRMManagerError': dict(), AIR
         'EOFError': dict(),
-        'IOError': dict()
+        'IllegalOperationError': dict(),
+        'InvalidSWFError': dict(),
+        'IOError': dict(),
+        'MemoryError': dict(),
+        # 'PermissionError': dict(), AIR
+        'ScriptTimeoutError': dict(),
+        #'SQLError': dict(), AIR
+        #'SQLErrorOperation': dict(), AIR
+        'StackOverflowError': dict()
     },
     'events' : {
         'AccelerometerEvent': dict(),
         'ActivityEvent': dict(),
         'AsyncErrorEvent': dict(),
+        # BrowserInvokeEvent AIR
         'ContextMenuEvent': dict(),
         'DataEvent': dict(),
         'ErrorEvent': dict(),
@@ -157,7 +185,6 @@ featureMatrix = {
         'JointStyle': dict(),
         'JPEGEncoderOptions': dict(),
         'IOErrorEvent': dict(),
-        'JPEGXREncoderOptions': dict(),
         'LineScaleMode': dict(),
         'KeyboardEvent': dict(),
         'Loader': dict(),
@@ -191,34 +218,28 @@ featureMatrix = {
         'UncaughtErrorEvents': dict(),
         'VideoEvent': dict()
     },
-    'external' : {
+    'external' : { # Checked
+        # 'ExtensionContext' AIR
         'ExternalInterface':dict()
     },
-    'filters' : {
+    'filters' : { # Checked
         'BevelFilter': dict(),
         'BevelFilter': dict(),
         'BitmapFilter': dict(),
         'BitmapFilterQuality': dict(),
         'BitmapFilterType': dict(),
         'BlurFilter': dict(),
-        'GesturePhase': dict(),
         'ColorMatrixFilter': dict(),
-        'HTTPStatusEvent': dict(),
         'ConvolutionFilter': dict(),
-        'IEventDispatcher': dict(),
         'DisplacementMapFilter': dict(),
-        'IMEEvent': dict(),
         'DisplacementMapFilterMode': dict(),
-        'IOErrorEvent': dict(),
         'DropShadowFilter': dict(),
-        'KeyboardEvent': dict(),
         'GlowFilter': dict(),
-        'MouseEvent': dict(),
         'GradientBevelFilter': dict(),
         'GradientGlowFilter': dict(),
         'ShaderFilter': dict()
     },
-    'geom' : {
+    'geom' : { # Checked
         'ColorTransform': dict(),
         'Matrix': dict(),
         'Matrix3D': dict(),
@@ -230,7 +251,7 @@ featureMatrix = {
         'Utils3D': dict(),
         'Vector3D': dict()
     },
-    'globalization' : {
+    'globalization' : { # Checked
         'Collator': dict(),
         'CollatorMode': dict(),
         'CurrencyFormatter': dict(),
@@ -246,13 +267,26 @@ featureMatrix = {
         'NumberParseResult': dict(),
         'StringTools': dict()
     },
-    'media' : {
+    'media' : { # Checked
         'AudioDecoder': dict(),
+        'AudioDeviceManager': dict(),
+        'AudioOutputChangeReason': dict(),
+        #AudioPlaybackMode AIR
+        'AVNetworkingParams': dict(),
+        'AVTagData': dict(),
+        'AVURLLoader': dict(),
+        'AVURLStream': dict(),
         'Camera': dict(),
+        #CameraPositionAIR
+        #CameraRollAIR
+        #CameraRollBrowseOptionsAIR
+        #CameraUIAIR
         'H264Level': dict(),
         'H264Profile': dict(),
         'H264VideoStreamSettings': dict(),
         'ID3Info': dict(),
+        #MediaPromise AIR
+        #MediaType AIR
         'Microphone': dict(),
         'MicrophoneEnhancedMode': dict(),
         'MicrophoneEnhancedOptions': dict(),
@@ -264,20 +298,21 @@ featureMatrix = {
         'SoundTransform': dict(),
         'StageVideo': dict(),
         'StageVideoAvailability': dict(),
+        'StageVideoAvailabilityReason': dict(),
+        #StageWebView AIR
         'Video': dict(),
         'VideoCodec': dict(),
         'VideoStatus': dict(),
         'VideoStreamSettings': dict()
     },
-    'net' : {
-        'DynamicPropertyOutput': dict(),
+    'net' : { # Checked
+        'DatagramSocket': dict(),
         'FileFilter': dict(),
         'FileReference': dict(),
         'FileReferenceList': dict(),
-        'FlashNetScript': dict(),
         'GroupSpecifier': dict(),
-        'IDynamicPropertyOutput': dict(),
-        'IDynamicPropertyWriter': dict(),
+        #'InterfaceAddress': dict(), AIR
+        #'IPVersion': dict(), AIR
         'LocalConnection': dict(),
         'NetConnection': dict(),
         'NetGroup': dict(),
@@ -293,57 +328,63 @@ featureMatrix = {
         'NetStreamMulticastInfo': dict(),
         'NetStreamPlayOptions': dict(),
         'NetStreamPlayTransitions': dict(),
+        #'NetworkInfo': dict(), AIR
+        #'NetworkInterface': dict(), AIR
         'ObjectEncoding': dict(),
         'Responder': dict(),
         'SecureSocket': dict(),
+        #'ServerSocket': dict(), AIR
         'SharedObject': dict(),
         'SharedObjectFlushStatus': dict(),
         'Socket': dict(),
         'URLLoader': dict(),
         'URLLoaderDataFormat': dict(),
         'URLRequest': dict(),
+        'URLRequestDefaults': dict(),
         'URLRequestHeader': dict(),
         'URLRequestMethod': dict(),
         'URLStream': dict(),
         'URLVariables': dict(),
         'XMLSocket': dict()
     },
-    'printing' : {
+    'printing' : { # Checked
+        #'PaperSize': dict(), AIR
         'PrintJob': dict(),
         'PrintJobOptions': dict(),
-        'PrintJobOrientation': dict()
+        'PrintJobOrientation': dict(),
+        # 'PrintMethod': dict(), AIR
+        #'PrintUIOptions': dict(), AIR
     },
-    'profiler' : {
+    'profiler' : { # Checked
         'Telemetry': dict()
     },
-    'sampler' : {
-        'ClassFactory': dict(),
+    'sampler' : { # Checked
         'DeleteObjectSample': dict(),
         'NewObjectSample': dict(),
         'Sample': dict(),
-        'StackFrame': dict(),
-        'getSize.as': dict()
+        'StackFrame': dict()
     },
-    'security' : {
+    'security' : { # Checked
         'CertificateStatus': dict(),
-        'X500DistinguishedName': dict(),
-        'X509Certificate': dict()
+        #'ReferencesValidationSetting': dict(),
+        #'RevocationCheckSettings': dict(),
+        #'SignatureStatus': dict(),
+        #'SignerTrustSettings': dict(),
+        #'X500DistinguishedName': dict(),
+        'X509Certificate': dict(),
+        #'XMLSignatureValidator': dict(),
     },
-    'sensors' : {
+    'sensors' : { # Checked
         'Accelerometer': dict(),
-        'Geolocation': dict(),
+        #'DeviceRotation': dist(), AIR
+        #'Geolocation': dict(), AIR
     },
-    'system' : {
+    'system' : { # Checked
         'ApplicationDomain': dict(),
-        'ApplicationInstaller': dict(),
-        'AuthorizedFeatures': dict(),
-        'AuthorizedFeaturesLoader': dict(),
         'Capabilities': dict(),
-        'DomainMemoryWithStage3D': dict(),
-        'FSCommand': dict(),
+        #'ImageDecodingPolicy': dict(), AIR
         'IME': dict(),
         'IMEConversionMode': dict(),
-        'ImageDecodingPolicy': dict(),
         'JPEGLoaderContext': dict(),
         'LoaderContext': dict(),
         'MessageChannel': dict(),
@@ -354,46 +395,52 @@ featureMatrix = {
         'System': dict(),
         'SystemUpdater': dict(),
         'SystemUpdaterType': dict(),
-        'TouchscreenType': dict()
+        'TouchscreenType': dict(),
+        'Worker': dict(),
+        'WorkerDomain': dict(),
+        'WorkerState': dict(),
     },
-    'text' : {
+    'text' : { # Checked
         'AntiAliasType': dict(),
+        #'AutoCapitalize' AIR
         'CSMSettings': dict(),
         'Font': dict(),
         'FontStyle': dict(),
         'FontType': dict(),
         'GridFitType': dict(),
+        #ReturnKeyLabel AIR
+    	#SoftKeyboardType AIR
+    	#StageText AIR
+     	#StageTextClearButtonMode AIR
+     	#StageTextInitOptions AIR
         'StaticText': dict(),
         'StyleSheet': dict(),
         'TextColorType': dict(),
         'TextDisplayMode': dict(),
-        'TextExtent': dict(),
         'TextField': dict(),
         'TextFieldAutoSize': dict(),
         'TextFieldType': dict(),
         'TextFormat': dict(),
         'TextFormatAlign': dict(),
-        'TextFormatDisplay': dict(),
+        #'TextFormatDisplay': dict(),
         'TextInteractionMode': dict(),
         'TextLineMetrics': dict(),
         'TextRenderer': dict(),
-        'TextRun': dict(),
-        'TextSnapshot': dict()
+        'TextSnapshot': dict(),
     },
     'trace' : {
         'Trace': dict()
     },
-    'ui' : {
+    'ui' : { # Checked
         'ContextMenu': dict(),
         'ContextMenuBuiltInItems': dict(),
         'ContextMenuClipboardItems': dict(),
         'ContextMenuItem': dict(),
-        'GameInput': dict(),
-        'GameInputControl': dict(),
-        'GameInputControlType': dict(),
-        'GameInputDevice': dict(),
-        'GameInputFinger': dict(),
-        'GameInputHand': dict(),
+        #'GameInput': dict(), AIR
+        #'GameInputControl': dict(), AIR
+        #'GameInputDevice': dict(), AIR
+        #'GameInputFinger': dict(),
+        #'GameInputHand': dict(),
         'KeyLocation': dict(),
         'Keyboard': dict(),
         'KeyboardType': dict(),
@@ -403,15 +450,14 @@ featureMatrix = {
         'Multitouch': dict(),
         'MultitouchInputMode': dict()
     },
-    'utils' : {
+    'utils' : { # Checked
         'CompressionAlgorithm': dict(),
         'Endian': dict(),
-        'FlashUtilScript': dict(),
-        'IDataInput2': dict(),
-        'IDataOutput2': dict(),
-        'IExternalizable': dict(),
-        'SetIntervalTimer': dict(),
-        'Timer': dict()
+        'IDataInput': dict(),
+        'IDataOutput': dict(),
+        'Timer': dict(),
+        'ByteArray': dict(),
+        'Dictionary': dict()
     }
 }
 
@@ -468,12 +514,13 @@ for subdir, dirs, files in os.walk(dir):
             subDirKey = subdir.replace(dir + '/','')
             fileKey = file.replace('.ts', '')
             if subDirKey in featureMatrix.keys():
-                if lines.find('notImplemented(') > 0:
-                    featureMatrix[subDirKey][fileKey]['shumway'] = 'No' # No
-                elif lines.find('somewhatImplemented(') > 0:
-                    featureMatrix[subDirKey][fileKey]['shumway'] = 'Partially'
-                else:
-                    featureMatrix[subDirKey][fileKey]['shumway'] = 'Yes'
+                if fileKey in featureMatrix[subDirKey].keys():
+                    if lines.find('notImplemented(') > 0:
+                        featureMatrix[subDirKey][fileKey]['shumway'] = 'No' # No
+                    elif lines.find('somewhatImplemented(') > 0:
+                        featureMatrix[subDirKey][fileKey]['shumway'] = 'Partially'
+                    else:
+                        featureMatrix[subDirKey][fileKey]['shumway'] = 'Yes'
 
 # Use https://github.com/mozilla/shumway/blob/16451d8836fa85f4b16eeda8b4bda2fa9e2b22b0/utils/playerglobal-builder/manifest.json
 # for better understanding of what is supported.
@@ -507,8 +554,6 @@ for subdir, dirs, files in os.walk(dir):
                 for found in m:
                     if fileKey in featureMatrix[item].keys():
                         featureMatrix[item][fileKey]['gnash'] = 'Yes'
-
-
 
 # Find Lightspark features
 fileContent = open('./lightspark/src/scripting/abc.cpp', "r")
@@ -556,72 +601,16 @@ for subdir, dirs, files in os.walk(dir):
                         featureMatrix[item][found]['lightspark'] = 'Partially'
 
 
-
-# Use registerNativeFunction(' to get a better understanding of what function is
-# implemented for each feature (class).
-
-
-#https://github.com/lightspark/lightspark/blob/318384e22b07375f8432f073bbdb243190b69a88/src/scripting/abc.cpp
-#https://github.com/lightspark/lightspark/blob/318384e22b07375f8432f073bbdb243190b69a88/src/allclasses.h
-#REGISTER_CLASS_NAME(
-#REGISTER_CLASS_NAME2
-#All Graphics APIs
-#IDrawCommand APIs
-#IMEEvent
-
-
-
-
-
-# Add AwayJS as Flash Player
-# https://github.com/awayjs/core/tree/master/lib
-
-
-
-
-
-
+featureMatrix['trace']['Trace']['lightspark'] = 'Yes'
 
 
 #Override features
 featureMatrix['display']['Shader']['lightspark'] = 'No'
-
 featureMatrix['display']['Shader']['shumway'] = 'No'
 featureMatrix['display']['ShaderInput']['shumway'] = 'No'
 featureMatrix['display']['ShaderJob']['shumway'] = 'No'
 featureMatrix['display']['ShaderParameter']['shumway'] = 'No'
 featureMatrix['display']['ShaderPrecision']['shumway'] = 'No'
-
-  #lightsparkFeatures = []
-#dir = './lightspark/src/scripting/flash'
-#for subdir, dirs, files in os.walk(dir):
-#    for file in files:
-#        if file.endswith('.cpp'):
-#            fileContent = open(os.path.join(subdir, file), "r")
-#            lines = fileContent.read()
-#            subDirKey = subdir.replace(dir + '/','')
-#            fileKey = file.replace('.cpp', '')
-#            if subDirKey in featureMatrix.keys():
-#                if lines.find('somewhatImplemented') > 0:
-#                    featureMatrix[subDirKey][fileKey]['shumway'] = 'Partially'
-#                elif lines.find('notImplemented') > 0:
-#                    featureMatrix[subDirKey][fileKey]['shumway'] = 'No'
-#                else:
-#                    featureMatrix[subDirKey][fileKey]['shumway'] = 'Yes'
-
-#pp = pprint.PrettyPrinter(indent=4,width=280)
-#pp.pprint(featureMatrix)
-
-#d_items = featureMatrix.items()
-#for key, item in d_items:
-#    for key2, item2 in featureMatrix[key].items():
-#        print(key2 + '   '
-#            '   Flash:    ' + featureMatrix[key][key2]['adobeflash'] +
-#            '   Shumway:  ' + featureMatrix[key][key2]['shumway'] +
-#            '   LightSpark:   ' + featureMatrix[key][key2]['lightspark'] +
-#            '   Gnash:   ' + featureMatrix[key][key2]['gnash']
-#        );
-#        #print(key2)
 
 
 with open("flash-matrix.json", "w") as write_file:
