@@ -466,41 +466,6 @@ for category in featureMatrix:
     for feature in featureMatrix[category]:
         featureMatrix[category][feature] = {'adobeflash' : 'Yes', 'shumway' : 'No', 'lightspark': 'No', 'gnash': 'No'}
 
-#def getShumwayFiles():
-#    shumwayFeatures = []
-#    dir = './shumway/src/flash'
-#    for subdir, dirs, files in os.walk(dir):
-#        for file in files:
-#            if file.endswith(".ts"):
-#                filePath = (os.path.join(subdir, file))
-#                shumwayFeatures.append(filePath)
-#    return shumwayFeatures
-#
-#
-#def getLightsparkFiles():
-#    dir = './lightspark/src/scripting/flash'
-#    lightsparkFeatures = []
-#    for subdir, dirs, files in os.walk(dir):
-#        for file in files:
-#            if file.endswith(".cpp"):
-#                filePath = (os.path.join(subdir, file))
-#                lightsparkFeatures.append(filePath)
-#    return lightsparkFeatures
-#
-#def getGnashFiles():
-#    gnashFeatures = []
-#    dir = './gnash/tree/master/libcore/asobj'
-#    for subdir, dirs, files in os.walk(dir):
-#        for file in files:
-#            if file.endswith(".ts"):
-#                filePath = (os.path.join(subdir, file))
-#                gnashFeatures.append(filePath)
-#    return gnashFeatures
-
-
-
-
-
 
 
 # Parse files
@@ -515,10 +480,10 @@ for subdir, dirs, files in os.walk(dir):
             fileKey = file.replace('.ts', '')
             if subDirKey in featureMatrix.keys():
                 if fileKey in featureMatrix[subDirKey].keys():
-                    if lines.find('notImplemented(') > 0:
-                        featureMatrix[subDirKey][fileKey]['shumway'] = 'No' # No
-                    elif lines.find('somewhatImplemented(') > 0:
+                    if lines.find('somewhatImplemented(') > 0:
                         featureMatrix[subDirKey][fileKey]['shumway'] = 'Partially'
+                    elif lines.find('notImplemented(') > 0:
+                        featureMatrix[subDirKey][fileKey]['shumway'] = 'Partially' # No
                     else:
                         featureMatrix[subDirKey][fileKey]['shumway'] = 'Yes'
 
@@ -526,13 +491,16 @@ for subdir, dirs, files in os.walk(dir):
 # for better understanding of what is supported.
 
 
+dir = './gnash/libcore/'
 
+for subdir, dirs, files in os.walk(dir):
+    for file in files:
+        if file.endswith('.cpp'):
+            fileKey = file.replace('.cpp', '')
+            for item in featureMatrix:
+                if fileKey in featureMatrix[item].keys():
+                    featureMatrix[item][fileKey]['gnash'] = 'Partially'
 
-
-
-
-
-dir = './gnash/libcore/asobj/'
 for subdir, dirs, files in os.walk(dir):
     for file in files:
         if file.endswith('_as.cpp'):
@@ -554,8 +522,11 @@ for subdir, dirs, files in os.walk(dir):
                 for found in m:
                     if fileKey in featureMatrix[item].keys():
                         featureMatrix[item][fileKey]['gnash'] = 'Yes'
+                        
+
 
 # Find Lightspark features
+
 fileContent = open('./lightspark/src/scripting/abc.cpp', "r")
 lines = fileContent.read()
 m = re.findall('builtin\-\>registerBuiltin\("(\w+)",', lines)
@@ -572,7 +543,6 @@ m = re.findall('REGISTER_CLASS_NAME\((\w+),\"(.*)\"', lines)
 
 m = re.findall('REGISTER_CLASS_NAME2\((\w+),\"(.*)\"', lines)
 # Fill in matrix here TODO
-
 
 # Find "Not implemented in all features to set as partially complete"
 dir = './lightspark/src/scripting/'
@@ -601,10 +571,11 @@ for subdir, dirs, files in os.walk(dir):
                         featureMatrix[item][found]['lightspark'] = 'Partially'
 
 
-featureMatrix['trace']['Trace']['lightspark'] = 'Yes'
+
 
 
 #Override features
+featureMatrix['trace']['Trace']['lightspark'] = 'Yes'
 featureMatrix['display']['Shader']['lightspark'] = 'No'
 featureMatrix['display']['Shader']['shumway'] = 'No'
 featureMatrix['display']['ShaderInput']['shumway'] = 'No'
