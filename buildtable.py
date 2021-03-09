@@ -526,14 +526,45 @@ for subdir, dirs, files in os.walk(dir):
 
 
 # Find Lightspark features
+lightsparkRegisters = [
+"./lightspark/src/scripting/abc_avm1.cpp",
+"./lightspark/src/scripting/abc_flashaccessibility.cpp",
+"./lightspark/src/scripting/abc_flashdesktop.cpp",
+"./lightspark/src/scripting/abc_flashconcurrent.cpp",
+"./lightspark/src/scripting/abc_flashcrypto.cpp",
+"./lightspark/src/scripting/abc_flashdisplay.cpp",
+"./lightspark/src/scripting/abc_flashdisplay3d.cpp",
+"./lightspark/src/scripting/abc_flashevents.cpp",
+"./lightspark/src/scripting/abc_flasherrors.cpp",
+"./lightspark/src/scripting/abc_flashexternal.cpp",
+"./lightspark/src/scripting/abc_flashfilesystem.cpp",
+"./lightspark/src/scripting/abc_flashfilters.cpp",
+"./lightspark/src/scripting/abc_flashgeom.cpp",
+"./lightspark/src/scripting/abc_flashglobalization.cpp",
+"./lightspark/src/scripting/abc_flashmedia.cpp",
+"./lightspark/src/scripting/abc_flashnet.cpp",
+"./lightspark/src/scripting/abc_flashprinting.cpp",
+"./lightspark/src/scripting/abc_flashsampler.cpp",
+"./lightspark/src/scripting/abc_flashsecurity.cpp",
+"./lightspark/src/scripting/abc_flashsensors.cpp",
+"./lightspark/src/scripting/abc_flashsystem.cpp",
+"./lightspark/src/scripting/abc_flashtext.cpp",
+"./lightspark/src/scripting/abc_flashui.cpp",
+"./lightspark/src/scripting/abc_flashutils.cpp",
+"./lightspark/src/scripting/abc_flashxml.cpp",
+"./lightspark/src/scripting/abc_avmplus.cpp",
+"./lightspark/src/scripting/abc_toplevel.cpp",
+]
 
-fileContent = open('./lightspark/src/scripting/abc.cpp', "r")
-lines = fileContent.read()
-m = re.findall('builtin\-\>registerBuiltin\("(\w+)",', lines)
-for item in featureMatrix:
-    for found in m:
-        if found in featureMatrix[item].keys():
-            featureMatrix[item][found]['lightspark'] = 'Yes'
+for file in lightsparkRegisters:
+    fileContent = open(file, "r")
+    lines = fileContent.read()
+    m = re.findall('builtin\-\>registerBuiltin\("(\w+)",', lines)
+    for item in featureMatrix:
+        for found in m:
+            if found in featureMatrix[item].keys():
+                print(file);
+                featureMatrix[item][found]['lightspark'] = 'Yes'
 
 # Find more lightspark features - This needs to be improved
 fileContent = open('./lightspark/src/allclasses.h', "r")
