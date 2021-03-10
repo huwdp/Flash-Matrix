@@ -464,7 +464,7 @@ featureMatrix = {
 # Add Flash Players
 for category in featureMatrix:
     for feature in featureMatrix[category]:
-        featureMatrix[category][feature] = {'adobeflash' : 'Yes', 'shumway' : 'No', 'lightspark': 'No', 'gnash': 'No'}
+        featureMatrix[category][feature] = {'adobeflash' : 'Yes', 'shumway' : 'No', 'lightspark': 'No', 'gnash': 'No', 'ruffle': 'No'}
 
 
 
@@ -563,7 +563,6 @@ for file in lightsparkRegisters:
     for item in featureMatrix:
         for found in m:
             if found in featureMatrix[item].keys():
-                print(file);
                 featureMatrix[item][found]['lightspark'] = 'Yes'
 
 # Find more lightspark features - This needs to be improved
@@ -613,6 +612,25 @@ featureMatrix['display']['ShaderInput']['shumway'] = 'No'
 featureMatrix['display']['ShaderJob']['shumway'] = 'No'
 featureMatrix['display']['ShaderParameter']['shumway'] = 'No'
 featureMatrix['display']['ShaderPrecision']['shumway'] = 'No'
+
+
+
+
+
+
+dir = './ruffle/core/src/avm2/globals/flash/'
+
+# We assume here that if the file exists then it is implemented 100%
+for subdir, dirs, files in os.walk(dir):
+    for file in files:
+        if file.endswith('.rs'):
+            fileKey = file.replace('.rs', '')
+            print(file)
+            for item in featureMatrix:
+                    for key, value in featureMatrix[item].iteritems():
+                        if fileKey == key.lower():
+                            featureMatrix[item][key]['ruffle'] = 'Yes'
+
 
 
 with open("flash-matrix.json", "w") as write_file:
