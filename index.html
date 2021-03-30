@@ -43,7 +43,11 @@
       <div id="container">
          <h1>Flash Player Matrix</h1>
          <p>Flash player supprt matrix. <strong>WIP</strong></p>
-         <p>The matrix gives approximate support of <a href="https://mozilla.github.io/shumway/">Shumway</a>, <a href="https://lightspark.github.io/">Lightspark</a> and <a href="https://www.gnu.org/software/gnash/">Gnash</a> flash players compared the defacto standard Adobe Flash Player.
+         <p>The matrix gives approximate support of <a href="https://mozilla.github.io/shumway/">Shumway</a>,
+            <a href="https://lightspark.github.io/">Lightspark</a>,
+            <a href="https://www.gnu.org/software/gnash/">Gnash</a> and
+            <a href="https://ruffle.rs/">ruffle</a>
+            flash players compared the defacto standard Adobe Flash Player.
             The matrix is not 100% correct due to the difficulty in measuring API support within the source code of each project.
          </p>
          <p>Adobe Flash support will end on December 31, 2020. Click <a href="https://www.adobe.com/products/flashplayer/end-of-life.html#">here</a> for information about the end of life support details.</p>
@@ -56,9 +60,12 @@
          <div id="flash-matrix">
             <h2>AS3 support matrix</h2>
          </div>
+         <div id="footer">
+            <p id="modifiedOn"></p>
+         </div>
       </div>
       <script>
-         var flashPlayers = ["adobeflash", "lightspark", "shumway", "gnash"];
+         var flashPlayers = ["adobeflash", "lightspark", "shumway", "gnash", "ruffle"];
          var container = document.getElementById("flash-matrix");
          var statsContainer = document.getElementById("stats");
          
@@ -70,13 +77,17 @@
          fetch('flash-matrix.json')
            .then(response => response.text())
            .then((data) => {
-             json = JSON.parse(data);
+             var json = JSON.parse(data);
+             var modifiedOn = json['modifiedOn'];
+             var matrix = json['matrix'];
+
+             document.getElementById('modifiedOn').innerHTML = "Last modified on " + modifiedOn;
          
              var statsTable = document.createElement("table");
              var featureTotalCount = 0;
-             for (category in json)
+             for (category in matrix)
              {
-               for (feature in json[category])
+               for (feature in matrix[category])
                {
                  featureTotalCount++;
                }
@@ -85,11 +96,11 @@
              for (player in flashPlayers)
              {
                var playerFeatureCount = 0;
-               for (category in json)
+               for (category in matrix)
                {
-                 for (feature in json[category])
+                 for (feature in matrix[category])
                  {
-                   if (json[category][feature][flashPlayers[player]] == "Yes")
+                   if (matrix[category][feature][flashPlayers[player]] == "Yes")
                    {
                      playerFeatureCount++;
                    }
@@ -106,7 +117,7 @@
              }
              statsContainer.appendChild(statsTable);
          
-             for (var category in json) {
+             for (var category in matrix) {
                var table = document.createElement("table");
          
                var header = document.createElement("tr");
@@ -121,7 +132,7 @@
                }
                table.appendChild(header);
          
-               for (feature in json[category])
+               for (feature in matrix[category])
                {
                  var tr = document.createElement("tr");
          
@@ -134,7 +145,7 @@
                  {
                    var td = document.createElement("td");
          
-                   var featureResult = json[category][feature][flashPlayers[player]];
+                   var featureResult = matrix[category][feature][flashPlayers[player]];
                    td.innerHTML = featureResult;
          
                    if (featureResult == "Yes")
