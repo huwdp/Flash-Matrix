@@ -4,6 +4,7 @@ import pprint
 import json
 import re
 import datetime
+import re
 
 dt_date = datetime.datetime.now()
 
@@ -617,6 +618,7 @@ for subdir, dirs, files in os.walk(dir):
     for file in files:
         if file.endswith('.rs'):
             fileKey = file.replace('.rs', '')
+            fileKey = re.sub(r'[^a-z]', '', fileKey)
             for item in matrix:
                     for key, value in matrix[item].iteritems():
                         if fileKey == key.lower():
