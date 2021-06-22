@@ -638,4 +638,4 @@ matrix['trace']['Trace']['ruffle'] = 'Yes'
 
 
 with open("flash-matrix.json", "w") as write_file:
-    json.dump(featureMatrix, write_file)
+    json.dump(featureMatrix, write_file ,indent = 2)
