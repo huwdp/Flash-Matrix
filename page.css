@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+#container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 3px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #ccc;
+}
+
+td:first-letter, th:first-letter {
+    text-transform: capitalize;
+}
+
+.featureUrl {
+    text-decoration: none;
+    color: #000;
+}
+
+.featureUrl:hover {
+    text-decoration: underline;
+}
