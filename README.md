@@ -1,8 +1,6 @@
 
 # Flash Matrix
-The matrix gives approximate support of Shumway, Lightspark, Gnash and Ruffle flash players compared the defacto standard Adobe Flash Player. The matrix is not 100% correct due to the difficulty in measuring API support within the source code of each project.
-
-Adobe Flash support ended on December 31, 2020. Click here for information about the end of life support details.
+The matrix gives approximate ActionScript 3 (AS3) support of Shumway, Lightspark, Gnash and Ruffle flash players compared the defacto standard Adobe Flash Player. The matrix is not 100% correct due to the difficulty in measuring API support within the source code of each project.
 
 ## Getting Started
 
