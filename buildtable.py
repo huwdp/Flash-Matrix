@@ -471,14 +471,32 @@ featureMatrix = {
 
 matrix = featureMatrix['matrix']
 
-# Add Flash Players
+# Add Flash Players to matrix
 for category in matrix:
     for feature in matrix[category]:
-        matrix[category][feature] = {'adobeflash' : 'Yes', 'shumway' : 'No', 'lightspark': 'No', 'gnash': 'No', 'ruffle': 'No'}
+        matrix[category][feature] = {'adobeflash' : 'Yes', 'shumway' : 'No', 'lightspark': 'No', 'gnash': 'No', 'ruffle': 'No', 'awayfl': 'No'}
 
+#==================Parse Flash Players for stats==================
 
+# Parse AwayFL Files
 
-# Parse files
+dir = './playerglobal/lib'
+for subdir, dirs, files in os.walk(dir):
+    for file in files:
+        if file.endswith('.ts'):
+            fileContent = open(os.path.join(subdir, file), "r")
+            lines = fileContent.read()
+            subDirKey = subdir.replace(dir + '/','')
+            fileKey = file.replace('.ts', '')
+            if subDirKey in matrix.keys():
+                if fileKey in matrix[subDirKey].keys():
+                    #if  lines.find('// @todo"'):
+                    #    matrix[subDirKey][fileKey]['awayfl'] = 'Partially'
+                    if lines.find('not implemented') > 0:
+                        matrix[subDirKey][fileKey]['awayfl'] = 'Partially' # No
+                    else:
+                        matrix[subDirKey][fileKey]['awayfl'] = 'Yes'
+#  Parse Shumway files 
 
 dir = './shumway/src/flash'
 for subdir, dirs, files in os.walk(dir):
@@ -500,6 +518,7 @@ for subdir, dirs, files in os.walk(dir):
 # Use https://github.com/mozilla/shumway/blob/16451d8836fa85f4b16eeda8b4bda2fa9e2b22b0/utils/playerglobal-builder/manifest.json
 # for better understanding of what is supported.
 
+# Parse Gnash files
 
 dir = './gnash/libcore/'
 
@@ -532,9 +551,9 @@ for subdir, dirs, files in os.walk(dir):
                 for found in m:
                     if fileKey in matrix[item].keys():
                         matrix[item][fileKey]['gnash'] = 'Yes'
-                        
 
-
+# Parse Lightspark files
+    
 # Find Lightspark features
 lightsparkRegisters = [
 "./lightspark/src/scripting/abc_avm1.cpp",
@@ -610,6 +629,7 @@ for subdir, dirs, files in os.walk(dir):
                     if found in matrix[item].keys():
                         matrix[item][found]['lightspark'] = 'Partially'
 
+# Parse Ruffle files
 
 dir = './ruffle/core/src/avm2/globals/flash/'
 
@@ -624,8 +644,7 @@ for subdir, dirs, files in os.walk(dir):
                         if fileKey == key.lower():
                             matrix[item][key]['ruffle'] = 'Yes'
 
-
-# Override features
+# Override some features
 matrix['trace']['Trace']['lightspark'] = 'Yes'
 matrix['display']['Shader']['lightspark'] = 'No'
 matrix['display']['Shader']['shumway'] = 'No'
@@ -634,8 +653,6 @@ matrix['display']['ShaderJob']['shumway'] = 'No'
 matrix['display']['ShaderParameter']['shumway'] = 'No'
 matrix['display']['ShaderPrecision']['shumway'] = 'No'
 matrix['trace']['Trace']['ruffle'] = 'Yes'
-
-
 
 with open("flash-matrix.json", "w") as write_file:
     json.dump(featureMatrix, write_file ,indent = 2)

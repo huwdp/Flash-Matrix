@@ -12,6 +12,7 @@ git clone https://github.com/mozilla/shumway.git
 git clone https://github.com/strk/gnash.git
 git clone https://github.com/lightspark/lightspark.git
 git clone https://github.com/ruffle-rs/ruffle.git
+git clone https://github.com/awayfl/playerglobal.git
 ```
 
 ### Inatall

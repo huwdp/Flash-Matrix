@@ -1,9 +1,9 @@
-var flashPlayers = ["adobeflash", "lightspark", "shumway", "ruffle", "gnash"];
+var flashPlayers = ["adobeflash", "lightspark", "shumway", "awayfl", "ruffle", "gnash"];
 var container = document.getElementById("flash-matrix");
 var statsContainer = document.getElementById("stats");
 
 function replaceNames(name) {
-    return name.replace("adobeflash", "Adobe Flash");
+    return name.replace("adobeflash", "Adobe Flash").replace("awayfl", "AwayFL");
 }
 
 fetch('flash-matrix.json')
