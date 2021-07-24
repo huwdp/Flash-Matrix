@@ -32,7 +32,7 @@ featureMatrix = {
             'Clipboard':dict(),
             'ClipboardFormats':dict(),
             'ClipboardTransferMode':dict(),
-            'IFilePromise':dict()
+            #'IFilePromise':dict()  AIR
          	#Icon AIR
          	#InteractiveIcon AIR
          	#InvokeEventReason AIR
@@ -76,7 +76,6 @@ featureMatrix = {
             'GraphicsStroke': dict(),
             'GraphicsTrianglePath': dict(),
             'IBitmapDrawable': dict(),
-            'IDrawCommand': dict(),
             'IGraphicsData': dict(),
             'IGraphicsFill': dict(),
             'IGraphicsPath': dict(),
@@ -91,7 +90,6 @@ featureMatrix = {
             'LoaderInfo': dict(),
             'MorphShape': dict(),
             'MovieClip': dict(),
-            'MovieClipSoundStream': dict(),
             #'NativeMenu': dict(),
          	#'NativeMenuItem': dict(),
          	#'NativeWindow': dict(),
@@ -175,35 +173,21 @@ featureMatrix = {
             'EventPhase': dict(),
             'FocusEvent': dict(),
             'FullScreenEvent': dict(),
-            'GameInputEvent': dict(),
-            'GeolocationEvent': dict(),
+            #'GameInputEvent': dict(), AIR
+            #'GeolocationEvent': dict(), AIR/FlashLite
             'GestureEvent': dict(),
-            'IDrawCommand': dict(),
             'GesturePhase': dict(),
-            'IGraphicsData': dict(),
-            'IGraphicsFill': dict(),
             'HTTPStatusEvent': dict(),
-            'IGraphicsPath': dict(),
-            'IGraphicsStroke': dict(),
             'IEventDispatcher': dict(),
-            'InteractiveObject': dict(),
-            'InterpolationMethod': dict(),
             'IMEEvent': dict(),
-            'JointStyle': dict(),
-            'JPEGEncoderOptions': dict(),
             'IOErrorEvent': dict(),
-            'LineScaleMode': dict(),
             'KeyboardEvent': dict(),
-            'Loader': dict(),
-            'LoaderInfo': dict(),
             'MouseEvent': dict(),
-            'MorphShape': dict(),
-            'MovieClip': dict(),
             'NetDataEvent': dict(),
-            'NetFilterEvent': dict(),
+            
             'NetMonitorEvent': dict(),
             'NetStatusEvent': dict(),
-            'OutputProgressEvent': dict(),
+            #'OutputProgressEvent': dict(), AIR
             'PressAndTapGestureEvent': dict(),
             'ProgressEvent': dict(),
             'SampleDataEvent': dict(),
@@ -313,7 +297,7 @@ featureMatrix = {
             'VideoStreamSettings': dict()
         },
         'net' : { # Checked
-            'DatagramSocket': dict(),
+            #'DatagramSocket': dict(), AIR
             'FileFilter': dict(),
             'FileReference': dict(),
             'FileReferenceList': dict(),

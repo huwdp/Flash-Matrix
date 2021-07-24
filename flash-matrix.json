@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Wednesday, 07 Jul 2021", 
+  "modifiedOn": "Saturday, 24 Jul 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -962,14 +962,6 @@
         "gnash": "No", 
         "lightspark": "No"
       }, 
-      "IFilePromise": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
       "ClipboardFormats": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
@@ -1218,14 +1210,6 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "NetStreamInfo": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Partially"
-      }, 
       "URLLoader": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
@@ -1362,13 +1346,13 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "DatagramSocket": {
+      "NetStreamInfo": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "No", 
-        "shumway": "No", 
+        "shumway": "Yes", 
         "gnash": "No", 
-        "lightspark": "No"
+        "lightspark": "Partially"
       }, 
       "NetGroupReceiveMode": {
         "adobeflash": "Yes", 
@@ -1500,9 +1484,9 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "ThrottleType": {
+      "EventDispatcher": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1516,6 +1500,30 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
+      "UncaughtErrorEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "ThrottleType": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "NetMonitorEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "No"
+      }, 
       "ThrottleEvent": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
@@ -1524,7 +1532,7 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "EventPhase": {
+      "StageVideoAvailabilityEvent": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "Yes", 
@@ -1532,55 +1540,7 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "ContextMenuEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "AccelerometerEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
-      "IEventDispatcher": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "TouchEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Partially", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "NetStatusEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "LineScaleMode": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "UncaughtErrorEvent": {
+      "PressAndTapGestureEvent": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "Yes", 
@@ -1604,7 +1564,23 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
+      "TransformGestureEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
       "HTTPStatusEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "FullScreenEvent": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "Yes", 
@@ -1636,110 +1612,6 @@
         "gnash": "No", 
         "lightspark": "No"
       }, 
-      "MovieClip": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "Yes", 
-        "lightspark": "Partially"
-      }, 
-      "TextEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Partially", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "Loader": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "ShaderEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
-      "SampleDataEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Partially", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "MorphShape": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "Partially", 
-        "lightspark": "Yes"
-      }, 
-      "Event": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Partially"
-      }, 
-      "IDrawCommand": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
-      "JointStyle": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "FullScreenEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "IGraphicsStroke": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "InterpolationMethod": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "InteractiveObject": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "Partially", 
-        "lightspark": "Yes"
-      }, 
       "IOErrorEvent": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
@@ -1748,103 +1620,7 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "EventDispatcher": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "SoftKeyboardEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
-      "IGraphicsData": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "MouseEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Partially", 
-        "shumway": "Partially", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "NetFilterEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
-      "NetMonitorEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
-      "GesturePhase": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
-      "VideoEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "SoftKeyboardTrigger": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
-      "PressAndTapGestureEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "SecurityErrorEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "ErrorEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "StageVideoAvailabilityEvent": {
+      "EventPhase": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "Yes", 
@@ -1860,67 +1636,43 @@
         "gnash": "No", 
         "lightspark": "No"
       }, 
-      "JPEGEncoderOptions": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "LoaderInfo": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "TransformGestureEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "GameInputEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "UncaughtErrorEvents": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Partially"
-      }, 
-      "OutputProgressEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
-      "GeolocationEvent": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
       "StageVideoEvent": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "ContextMenuEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "TouchEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Partially", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "VideoEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "MouseEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Partially", 
+        "shumway": "Partially", 
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
@@ -1932,13 +1684,37 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "IGraphicsFill": {
+      "AccelerometerEvent": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "No"
+      }, 
+      "IEventDispatcher": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
         "gnash": "No", 
         "lightspark": "Yes"
+      }, 
+      "SoftKeyboardTrigger": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "No"
+      }, 
+      "GesturePhase": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "No"
       }, 
       "SyncEvent": {
         "adobeflash": "Yes", 
@@ -1948,10 +1724,26 @@
         "gnash": "No", 
         "lightspark": "No"
       }, 
-      "TimerEvent": {
+      "UncaughtErrorEvents": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
-        "awayfl": "Partially", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Partially"
+      }, 
+      "ShaderEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "No"
+      }, 
+      "NetStatusEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
         "lightspark": "Yes"
@@ -1964,11 +1756,59 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "IGraphicsPath": {
+      "TimerEvent": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
+        "awayfl": "Partially", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "SecurityErrorEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "SoftKeyboardEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "No"
+      }, 
+      "ErrorEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "Event": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Partially"
+      }, 
+      "TextEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Partially", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "SampleDataEvent": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Partially", 
+        "shumway": "Yes", 
         "gnash": "No", 
         "lightspark": "Yes"
       }
@@ -2172,38 +2012,6 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "JointStyle": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "SpreadMethod": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "IGraphicsFill": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "GraphicsEndFill": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
       "BitmapData": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
@@ -2212,26 +2020,10 @@
         "gnash": "Yes", 
         "lightspark": "Partially"
       }, 
-      "GraphicsTrianglePath": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
       "SWFVersion": {
         "adobeflash": "Yes", 
         "ruffle": "Yes", 
         "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "GradientType": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
         "lightspark": "Yes"
@@ -2244,43 +2036,11 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "InteractiveObject": {
+      "StageScaleMode": {
         "adobeflash": "Yes", 
         "ruffle": "Yes", 
-        "awayfl": "Yes", 
-        "shumway": "Partially", 
-        "gnash": "Partially", 
-        "lightspark": "Yes"
-      }, 
-      "GraphicsShaderFill": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
         "awayfl": "No", 
         "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "Loader": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Partially", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "SimpleButton": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "Yes", 
-        "shumway": "Partially", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "ShaderPrecision": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
@@ -2292,37 +2052,13 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "ShaderParameterType": {
+      "ShaderJob": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "No", 
-        "shumway": "Yes", 
+        "shumway": "No", 
         "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "PixelSnapping": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "StageScaleMode": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "Sprite": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "Yes", 
-        "shumway": "Partially", 
-        "gnash": "No", 
-        "lightspark": "Yes"
+        "lightspark": "No"
       }, 
       "GraphicsSolidFill": {
         "adobeflash": "Yes", 
@@ -2332,38 +2068,6 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "IGraphicsData": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "IGraphicsStroke": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "DisplayObject": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "Partially", 
-        "shumway": "Partially", 
-        "gnash": "Partially", 
-        "lightspark": "Partially"
-      }, 
-      "MovieClipSoundStream": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
       "ColorCorrection": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
@@ -2371,14 +2075,6 @@
         "shumway": "Yes", 
         "gnash": "No", 
         "lightspark": "Yes"
-      }, 
-      "Stage": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "Yes", 
-        "shumway": "Partially", 
-        "gnash": "Yes", 
-        "lightspark": "Partially"
       }, 
       "StageQuality": {
         "adobeflash": "Yes", 
@@ -2396,14 +2092,6 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "Graphics": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "Yes", 
-        "shumway": "Partially", 
-        "gnash": "No", 
-        "lightspark": "Partially"
-      }, 
       "TriangleCulling": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
@@ -2420,10 +2108,10 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "InterpolationMethod": {
+      "GraphicsEndFill": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
-        "awayfl": "Yes", 
+        "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
         "lightspark": "Yes"
@@ -2444,14 +2132,6 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "ShaderParameter": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
       "GraphicsGradientFill": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
@@ -2468,14 +2148,6 @@
         "gnash": "Partially", 
         "lightspark": "Yes"
       }, 
-      "ShaderJob": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "No", 
-        "gnash": "No", 
-        "lightspark": "No"
-      }, 
       "Shader": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
@@ -2484,26 +2156,10 @@
         "gnash": "No", 
         "lightspark": "No"
       }, 
-      "JPEGEncoderOptions": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
       "BitmapDataChannel": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "GraphicsBitmapFill": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
         "lightspark": "Yes"
@@ -2524,7 +2180,191 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "ShaderInput": {
+      "ActionScriptVersion": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "No", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "MovieClip": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "Partially", 
+        "shumway": "Yes", 
+        "gnash": "Yes", 
+        "lightspark": "Partially"
+      }, 
+      "StageDisplayState": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "No", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "AVM1Movie": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "No", 
+        "shumway": "Partially", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "Loader": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Partially", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "GraphicsPath": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "MorphShape": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "No", 
+        "shumway": "Yes", 
+        "gnash": "Partially", 
+        "lightspark": "Yes"
+      }, 
+      "JointStyle": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "IGraphicsStroke": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "No", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "InterpolationMethod": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "ShaderParameterType": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "No", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "GraphicsTrianglePath": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "No", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "GradientType": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "InteractiveObject": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "Yes", 
+        "shumway": "Partially", 
+        "gnash": "Partially", 
+        "lightspark": "Yes"
+      }, 
+      "GraphicsShaderFill": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "No", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "Bitmap": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "Partially", 
+        "lightspark": "Yes"
+      }, 
+      "ShaderPrecision": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "No", 
+        "shumway": "No", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "PixelSnapping": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "Sprite": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "Yes", 
+        "shumway": "Partially", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "IGraphicsData": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "DisplayObject": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "Partially", 
+        "shumway": "Partially", 
+        "gnash": "Partially", 
+        "lightspark": "Partially"
+      }, 
+      "Graphics": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "Yes", 
+        "shumway": "Partially", 
+        "gnash": "No", 
+        "lightspark": "Partially"
+      }, 
+      "Stage": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "Yes", 
+        "shumway": "Partially", 
+        "gnash": "Yes", 
+        "lightspark": "Partially"
+      }, 
+      "ShaderParameter": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "No", 
@@ -2532,9 +2372,9 @@
         "gnash": "No", 
         "lightspark": "No"
       }, 
-      "ActionScriptVersion": {
+      "JPEGEncoderOptions": {
         "adobeflash": "Yes", 
-        "ruffle": "Yes", 
+        "ruffle": "No", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2545,6 +2385,46 @@
         "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "GraphicsBitmapFill": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "No", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "SpreadMethod": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "Yes", 
+        "shumway": "Yes", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "ShaderInput": {
+        "adobeflash": "Yes", 
+        "ruffle": "No", 
+        "awayfl": "No", 
+        "shumway": "No", 
+        "gnash": "No", 
+        "lightspark": "No"
+      }, 
+      "SimpleButton": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "Yes", 
+        "shumway": "Partially", 
+        "gnash": "No", 
+        "lightspark": "Yes"
+      }, 
+      "StageAlign": {
+        "adobeflash": "Yes", 
+        "ruffle": "Yes", 
+        "awayfl": "No", 
+        "shumway": "Yes", 
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
@@ -2564,35 +2444,11 @@
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
-      "MovieClip": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "Partially", 
-        "shumway": "Yes", 
-        "gnash": "Yes", 
-        "lightspark": "Partially"
-      }, 
-      "StageAlign": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "StageDisplayState": {
-        "adobeflash": "Yes", 
-        "ruffle": "Yes", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "AVM1Movie": {
+      "IGraphicsFill": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "No", 
-        "shumway": "Partially", 
+        "shumway": "Yes", 
         "gnash": "No", 
         "lightspark": "Yes"
       }, 
@@ -2602,14 +2458,6 @@
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "Bitmap": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "Partially", 
         "lightspark": "Yes"
       }, 
       "ShaderData": {
@@ -2628,28 +2476,12 @@
         "gnash": "Partially", 
         "lightspark": "Yes"
       }, 
-      "GraphicsPath": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "Yes", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
       "IGraphicsPath": {
         "adobeflash": "Yes", 
         "ruffle": "No", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
-        "lightspark": "Yes"
-      }, 
-      "MorphShape": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "Partially", 
         "lightspark": "Yes"
       }, 
       "IBitmapDrawable": {
@@ -2659,14 +2491,6 @@
         "shumway": "Yes", 
         "gnash": "No", 
         "lightspark": "Yes"
-      }, 
-      "IDrawCommand": {
-        "adobeflash": "Yes", 
-        "ruffle": "No", 
-        "awayfl": "No", 
-        "shumway": "Yes", 
-        "gnash": "No", 
-        "lightspark": "No"
       }
     }
   }
