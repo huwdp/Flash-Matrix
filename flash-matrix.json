@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 24 Jul 2021", 
+  "modifiedOn": "Tuesday, 17 Aug 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -580,7 +580,7 @@
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
-        "lightspark": "Yes"
+        "lightspark": "Partially"
       }, 
       "AudioDecoder": {
         "adobeflash": "Yes", 
@@ -866,7 +866,7 @@
       }, 
       "Capabilities": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "No", 
