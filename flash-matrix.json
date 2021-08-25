@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 17 Aug 2021", 
+  "modifiedOn": "Wednesday, 25 Aug 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1152,7 +1152,7 @@
       }, 
       "Rectangle": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
@@ -1670,7 +1670,7 @@
       }, 
       "MouseEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Partially", 
         "shumway": "Partially", 
         "gnash": "No", 
