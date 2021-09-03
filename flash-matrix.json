@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Wednesday, 25 Aug 2021", 
+  "modifiedOn": "Friday, 03 Sep 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -140,7 +140,7 @@
       }, 
       "Font": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "Partially", 
@@ -922,7 +922,7 @@
       }, 
       "Security": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "No", 
