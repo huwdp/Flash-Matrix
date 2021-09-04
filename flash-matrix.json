@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Friday, 03 Sep 2021", 
+  "modifiedOn": "Saturday, 04 Sep 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -680,7 +680,7 @@
       }, 
       "Sound": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Partially", 
         "shumway": "Partially", 
         "gnash": "Yes", 
@@ -712,7 +712,7 @@
       }, 
       "SoundMixer": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "No", 
@@ -752,7 +752,7 @@
       }, 
       "SoundTransform": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Partially", 
         "shumway": "Partially", 
         "gnash": "No", 
@@ -760,7 +760,7 @@
       }, 
       "SoundChannel": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Partially", 
         "shumway": "Partially", 
         "gnash": "No", 

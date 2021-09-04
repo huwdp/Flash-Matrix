@@ -20,3 +20,9 @@ git pull
 cd ..
 
 python buildtable.py
+
+git add ruffle
+git add lightspark
+git add shumway
+git add gnash
+git add flash-matrix.json
