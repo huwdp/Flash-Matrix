@@ -36,7 +36,7 @@ fetch('flash-matrix.json')
             var playerName = document.createElement("td");
             playerName.innerHTML = replaceNames(flashPlayers[player]);
             var playerSupport = document.createElement("td");
-            playerSupport.innerHTML = playerFeatureCount + " (" + (playerFeatureCount / 328 * 100).toFixed(2) + "%)";
+            playerSupport.innerHTML = playerFeatureCount + " (" + (playerFeatureCount / 306 * 100).toFixed(2) + "%)";
             playerStatsTr.appendChild(playerName);
             playerStatsTr.appendChild(playerSupport);
             statsTable.appendChild(playerStatsTr);
