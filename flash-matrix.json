@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 04 Sep 2021", 
+  "modifiedOn": "Sunday, 05 Sep 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -270,7 +270,7 @@
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
-        "lightspark": "Partially"
+        "lightspark": "Yes"
       }, 
       "DisplacementMapFilterMode": {
         "adobeflash": "Yes", 
@@ -870,7 +870,7 @@
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "No", 
-        "lightspark": "Yes"
+        "lightspark": "Partially"
       }, 
       "SecurityDomain": {
         "adobeflash": "Yes", 
@@ -1478,7 +1478,7 @@
     "events": {
       "KeyboardEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1494,7 +1494,7 @@
       }, 
       "ProgressEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
