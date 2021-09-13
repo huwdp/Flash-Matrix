@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 07 Sep 2021", 
+  "modifiedOn": "Monday, 13 Sep 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -2014,7 +2014,7 @@
       }, 
       "BitmapData": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Partially", 
         "shumway": "Partially", 
         "gnash": "Yes", 
@@ -2302,7 +2302,7 @@
       }, 
       "Bitmap": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Partially", 
@@ -2486,7 +2486,7 @@
       }, 
       "IBitmapDrawable": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
