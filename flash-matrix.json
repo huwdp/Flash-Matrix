@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 13 Sep 2021", 
+  "modifiedOn": "Wednesday, 22 Sep 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -262,7 +262,7 @@
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
-        "lightspark": "Partially"
+        "lightspark": "Yes"
       }, 
       "BlurFilter": {
         "adobeflash": "Yes", 
@@ -326,7 +326,7 @@
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
-        "lightspark": "Yes"
+        "lightspark": "Partially"
       }, 
       "GlowFilter": {
         "adobeflash": "Yes", 
