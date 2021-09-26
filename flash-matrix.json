@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Wednesday, 22 Sep 2021", 
+  "modifiedOn": "Sunday, 26 Sep 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -174,7 +174,7 @@
       }, 
       "Dictionary": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "No", 
         "gnash": "No", 
