@@ -310,7 +310,7 @@
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
-        "lightspark": "Partially"
+        "lightspark": "Yes"
       }, 
       "GradientBevelFilter": {
         "adobeflash": "Yes", 
@@ -318,7 +318,7 @@
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
-        "lightspark": "Partially"
+        "lightspark": "Yes"
       }, 
       "DropShadowFilter": {
         "adobeflash": "Yes", 
@@ -342,7 +342,7 @@
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
-        "lightspark": "Partially"
+        "lightspark": "Yes"
       }, 
       "BitmapFilterType": {
         "adobeflash": "Yes", 
@@ -366,7 +366,7 @@
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "Yes", 
-        "lightspark": "Partially"
+        "lightspark": "Yes"
       }
     }, 
     "display3D": {
