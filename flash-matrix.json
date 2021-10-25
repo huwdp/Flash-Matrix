@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 26 Sep 2021", 
+  "modifiedOn": "Monday, 25 Oct 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1444,7 +1444,7 @@
       }, 
       "SharedObject": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "Yes", 
