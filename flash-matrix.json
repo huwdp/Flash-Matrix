@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 25 Oct 2021", 
+  "modifiedOn": "Wednesday, 03 Nov 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1260,7 +1260,7 @@
       }, 
       "ObjectEncoding": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "No", 
         "gnash": "No", 
