@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Wednesday, 03 Nov 2021", 
+  "modifiedOn": "Monday, 15 Nov 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1582,7 +1582,7 @@
       }, 
       "FullScreenEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1630,7 +1630,7 @@
       }, 
       "ActivityEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
