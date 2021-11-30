@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 15 Nov 2021", 
+  "modifiedOn": "Tuesday, 30 Nov 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1224,7 +1224,7 @@
         "awayfl": "No", 
         "shumway": "Partially", 
         "gnash": "No", 
-        "lightspark": "Yes"
+        "lightspark": "Partially"
       }, 
       "URLVariables": {
         "adobeflash": "Yes", 
@@ -2318,7 +2318,7 @@
       }, 
       "PixelSnapping": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
