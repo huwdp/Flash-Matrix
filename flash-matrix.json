@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 30 Nov 2021", 
+  "modifiedOn": "Thursday, 02 Dec 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -918,7 +918,7 @@
         "awayfl": "No", 
         "shumway": "Partially", 
         "gnash": "No", 
-        "lightspark": "No"
+        "lightspark": "Partially"
       }, 
       "Security": {
         "adobeflash": "Yes", 
