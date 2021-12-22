@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 14 Dec 2021", 
+  "modifiedOn": "Wednesday, 22 Dec 2021", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1970,7 +1970,7 @@
       }, 
       "Mouse": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "Yes", 
