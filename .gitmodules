@@ -1,0 +1,15 @@
+[submodule "gnash"]
+	path = gnash
+	url = https://github.com/strk/gnash.git
+[submodule "shumway"]
+	path = shumway
+	url = https://github.com/mozilla/shumway.git
+[submodule "lightspark"]
+	path = lightspark
+	url = https://github.com/lightspark/lightspark.git
+[submodule "ruffle"]
+	path = ruffle
+	url = https://github.com/ruffle-rs/ruffle.git
+[submodule "playerglobal"]
+	path = playerglobal
+	url = https://github.com/awayfl/playerglobal.git
