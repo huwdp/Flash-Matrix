@@ -6,6 +6,8 @@ import re
 import datetime
 import re
 
+
+fileName = 'flash-matrix.json'
 dt_date = datetime.datetime.now()
 
 featureMatrix = {
@@ -638,5 +640,11 @@ matrix['display']['ShaderParameter']['shumway'] = 'No'
 matrix['display']['ShaderPrecision']['shumway'] = 'No'
 matrix['trace']['Trace']['ruffle'] = 'Yes'
 
-with open("flash-matrix.json", "w") as write_file:
+with open(fileName, "r") as read_file:
+    existingFeatureMatrix = json.load(read_file)
+
+if (sorted(existingFeatureMatrix['matrix'].items()) != sorted(featureMatrix['matrix'].items())):
+    print("File is differnet.")
+
+with open(fileName, "w") as write_file:
     json.dump(featureMatrix, write_file ,indent = 2)
