@@ -24,7 +24,7 @@ pip install requests
 ```
 ### Building matrix
 ```
-python3 build-matrix.py
+bash re-build-matrix.sh
 ```
 
 
