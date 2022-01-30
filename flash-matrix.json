@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 03 Jan 2022", 
+  "modifiedOn": "Sunday, 30 Jan 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1622,7 +1622,7 @@
       }, 
       "EventPhase": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
