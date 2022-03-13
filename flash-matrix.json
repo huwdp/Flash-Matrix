@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Friday, 04 Mar 2022", 
+  "modifiedOn": "Sunday, 13 Mar 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -190,7 +190,7 @@
       }, 
       "Timer": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1468,7 +1468,7 @@
       }, 
       "URLRequest": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1962,7 +1962,7 @@
       }, 
       "Keyboard": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "No", 
@@ -2214,7 +2214,7 @@
       }, 
       "Loader": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "No", 
