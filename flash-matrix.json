@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 19 Mar 2022", 
+  "modifiedOn": "Thursday, 31 Mar 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1614,7 +1614,7 @@
       }, 
       "IOErrorEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1646,7 +1646,7 @@
       }, 
       "ContextMenuEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1954,7 +1954,7 @@
       }, 
       "ContextMenuItem": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
