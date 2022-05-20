@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 21 Apr 2022", 
+  "modifiedOn": "Friday, 20 May 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1212,7 +1212,7 @@
       }, 
       "URLLoader": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1460,7 +1460,7 @@
       }, 
       "URLLoaderDataFormat": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2254,7 +2254,7 @@
       }, 
       "InterpolationMethod": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2278,7 +2278,7 @@
       }, 
       "GradientType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2398,7 +2398,7 @@
       }, 
       "SpreadMethod": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
