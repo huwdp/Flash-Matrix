@@ -16,6 +16,19 @@ fetch('flash-matrix.json')
         document.getElementById('modifiedOn').innerHTML = "Last modified on " + modifiedOn;
 
         var statsTable = document.createElement("table");
+
+        var statsHeader = document.createElement("tr");
+        var statsHeader1 = document.createElement("th");
+        statsHeader1.innerHTML = "Flash player";
+        var statsHeader2 = document.createElement("th");
+        statsHeader2.innerHTML = "AS3 API Implementation";
+        var statsHeader3 = document.createElement("th");
+        statsHeader3.innerHTML = "AS3 API Implementation (including partial ones)";
+        statsHeader.appendChild(statsHeader1);
+        statsHeader.appendChild(statsHeader2);
+        statsHeader.appendChild(statsHeader3);
+        statsTable.appendChild(statsHeader);
+
         var featureTotalCount = 0;
         for (category in matrix) {
             for (feature in matrix[category]) {
@@ -25,10 +38,15 @@ fetch('flash-matrix.json')
 
         for (player in flashPlayers) {
             var playerFeatureCount = 0;
+            var playerFeatureIncludingPartialCount = 0;
             for (category in matrix) {
                 for (feature in matrix[category]) {
                     if (matrix[category][feature][flashPlayers[player]] == "Yes") {
                         playerFeatureCount++;
+                        playerFeatureIncludingPartialCount++;
+                    }
+                    if (matrix[category][feature][flashPlayers[player]] == "Partially") {
+                        playerFeatureIncludingPartialCount++;
                     }
                 }
             }
@@ -36,9 +54,12 @@ fetch('flash-matrix.json')
             var playerName = document.createElement("td");
             playerName.innerHTML = replaceNames(flashPlayers[player]);
             var playerSupport = document.createElement("td");
+            var playerSupportIncludingPartial = document.createElement("td");
             playerSupport.innerHTML = playerFeatureCount + " (" + (playerFeatureCount / 306 * 100).toFixed(2) + "%)";
+            playerSupportIncludingPartial.innerHTML = playerFeatureIncludingPartialCount + " (" + (playerFeatureIncludingPartialCount / 306 * 100).toFixed(2) + "%)";
             playerStatsTr.appendChild(playerName);
             playerStatsTr.appendChild(playerSupport);
+            playerStatsTr.appendChild(playerSupportIncludingPartial);
             statsTable.appendChild(playerStatsTr);
         }
         statsContainer.appendChild(statsTable);
