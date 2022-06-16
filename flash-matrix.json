@@ -1,10 +1,10 @@
 {
-  "modifiedOn": "Monday, 13 Jun 2022", 
+  "modifiedOn": "Thursday, 16 Jun 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 

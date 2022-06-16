@@ -622,13 +622,15 @@ dir = './ruffle/core/src/avm2/globals/flash/'
 # We assume here that if the file exists then it is implemented 100%
 for subdir, dirs, files in os.walk(dir):
     for file in files:
-        if file.endswith('.rs'):
+        if file.endswith('.rs') or file.endswith('.as'):
             fileKey = file.replace('.rs', '')
+            fileKey = fileKey.replace('.as', '')
+            fileKey = fileKey.lower()
             fileKey = re.sub(r'[^a-z]', '', fileKey)
             for item in matrix:
-                    for key, value in matrix[item].iteritems():
-                        if fileKey == key.lower():
-                            matrix[item][key]['ruffle'] = 'Yes'
+                for key, value in matrix[item].iteritems():
+                    if fileKey.lower() == key.lower():
+                        matrix[item][key]['ruffle'] = 'Yes'
 
 # Override some features
 matrix['trace']['Trace']['lightspark'] = 'Yes'
