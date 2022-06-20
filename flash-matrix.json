@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 16 Jun 2022", 
+  "modifiedOn": "Monday, 20 Jun 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -240,7 +240,7 @@
       }, 
       "Accessibility": {
         "adobeflash": "Yes", 
-        "ruffle": "Yes", 
+        "ruffle": "No", 
         "awayfl": "No", 
         "shumway": "Partially", 
         "gnash": "Yes", 
