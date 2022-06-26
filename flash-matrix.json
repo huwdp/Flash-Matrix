@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 20 Jun 2022", 
+  "modifiedOn": "Sunday, 26 Jun 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -12,7 +12,7 @@
       }, 
       "FontStyle": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -28,7 +28,7 @@
       }, 
       "TextLineMetrics": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -36,7 +36,7 @@
       }, 
       "GridFitType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -44,7 +44,7 @@
       }, 
       "TextDisplayMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -52,7 +52,7 @@
       }, 
       "TextColorType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -68,7 +68,7 @@
       }, 
       "FontType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -92,7 +92,7 @@
       }, 
       "TextInteractionMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1144,7 +1144,7 @@
       }, 
       "ColorTransform": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
@@ -1268,7 +1268,7 @@
       }, 
       "URLRequestHeader": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1316,7 +1316,7 @@
       }, 
       "URLRequestMethod": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1340,7 +1340,7 @@
       }, 
       "SharedObjectFlushStatus": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2006,7 +2006,7 @@
       }, 
       "JPEGXREncoderOptions": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2030,7 +2030,7 @@
       }, 
       "BitmapEncodingColorSpace": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2070,7 +2070,7 @@
       }, 
       "ColorCorrection": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2086,7 +2086,7 @@
       }, 
       "GraphicsPathCommand": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2094,7 +2094,7 @@
       }, 
       "TriangleCulling": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2118,7 +2118,7 @@
       }, 
       "GraphicsPathWinding": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2126,7 +2126,7 @@
       }, 
       "ColorCorrectionSupport": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2158,7 +2158,7 @@
       }, 
       "BitmapDataChannel": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2174,7 +2174,7 @@
       }, 
       "BlendMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2262,7 +2262,7 @@
       }, 
       "ShaderParameterType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2310,7 +2310,7 @@
       }, 
       "ShaderPrecision": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "No", 
         "gnash": "No", 
@@ -2374,7 +2374,7 @@
       }, 
       "JPEGEncoderOptions": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -2438,7 +2438,7 @@
       }, 
       "PNGEncoderOptions": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
