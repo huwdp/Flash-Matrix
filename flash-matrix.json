@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Friday, 29 Jul 2022", 
+  "modifiedOn": "Friday, 12 Aug 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -542,7 +542,7 @@
       }, 
       "IllegalOperationError": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -842,7 +842,7 @@
       }, 
       "LoaderContext": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -874,7 +874,7 @@
       }, 
       "SecurityDomain": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
