@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Friday, 12 Aug 2022", 
+  "modifiedOn": "Thursday, 18 Aug 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -290,7 +290,7 @@
       }, 
       "ColorMatrixFilter": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
@@ -1160,7 +1160,7 @@
       }, 
       "Transform": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "Yes", 
