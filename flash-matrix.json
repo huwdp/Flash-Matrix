@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 18 Aug 2022", 
+  "modifiedOn": "Sunday, 21 Aug 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1898,7 +1898,7 @@
       }, 
       "ContextMenuBuiltInItems": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
