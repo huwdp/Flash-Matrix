@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 21 Aug 2022", 
+  "modifiedOn": "Saturday, 03 Sep 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1502,7 +1502,7 @@
       }, 
       "UncaughtErrorEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1526,7 +1526,7 @@
       }, 
       "ThrottleEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1534,7 +1534,7 @@
       }, 
       "StageVideoAvailabilityEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1550,7 +1550,7 @@
       }, 
       "GestureEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "No", 
@@ -1558,7 +1558,7 @@
       }, 
       "StatusEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1574,7 +1574,7 @@
       }, 
       "HTTPStatusEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1590,7 +1590,7 @@
       }, 
       "NetDataEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1598,7 +1598,7 @@
       }, 
       "DataEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1638,7 +1638,7 @@
       }, 
       "StageVideoEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1662,7 +1662,7 @@
       }, 
       "VideoEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1678,7 +1678,7 @@
       }, 
       "FocusEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Partially", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1686,7 +1686,7 @@
       }, 
       "AccelerometerEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1718,7 +1718,7 @@
       }, 
       "SyncEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1734,7 +1734,7 @@
       }, 
       "ShaderEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1742,7 +1742,7 @@
       }, 
       "NetStatusEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1750,7 +1750,7 @@
       }, 
       "AsyncErrorEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1774,7 +1774,7 @@
       }, 
       "SoftKeyboardEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1806,7 +1806,7 @@
       }, 
       "SampleDataEvent": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Partially", 
         "shumway": "Yes", 
         "gnash": "No", 
