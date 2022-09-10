@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 03 Sep 2022", 
+  "modifiedOn": "Saturday, 10 Sep 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -792,7 +792,7 @@
       }, 
       "SoundLoaderContext": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
