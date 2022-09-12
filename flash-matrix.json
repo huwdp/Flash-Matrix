@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 10 Sep 2022", 
+  "modifiedOn": "Monday, 12 Sep 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -354,7 +354,7 @@
       }, 
       "BitmapFilterQuality": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
