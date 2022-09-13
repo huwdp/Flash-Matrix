@@ -186,7 +186,6 @@ featureMatrix = {
             'KeyboardEvent': dict(),
             'MouseEvent': dict(),
             'NetDataEvent': dict(),
-            
             'NetMonitorEvent': dict(),
             'NetStatusEvent': dict(),
             #'OutputProgressEvent': dict(), AIR
@@ -482,8 +481,8 @@ for subdir, dirs, files in os.walk(dir):
                         matrix[subDirKey][fileKey]['awayfl'] = 'Partially' # No
                     else:
                         matrix[subDirKey][fileKey]['awayfl'] = 'Yes'
-#  Parse Shumway files 
 
+#  Parse Shumway files 
 dir = './shumway/src/flash'
 for subdir, dirs, files in os.walk(dir):
     for file in files:
@@ -539,7 +538,6 @@ for subdir, dirs, files in os.walk(dir):
                         matrix[item][fileKey]['gnash'] = 'Yes'
 
 # Parse Lightspark files
-    
 # Find Lightspark features
 lightsparkRegisters = [
 "./lightspark/src/scripting/abc_avm1.cpp",
@@ -626,7 +624,7 @@ for subdir, dirs, files in os.walk(dir):
             fileKey = file.replace('.rs', '')
             fileKey = fileKey.replace('.as', '')
             fileKey = fileKey.lower()
-            fileKey = re.sub(r'[^a-z]', '', fileKey)
+            fileKey = re.sub(r'[^a-zA-Z0-9]', '', fileKey)
             for item in matrix:
                 for key, value in matrix[item].iteritems():
                     if fileKey.lower() == key.lower():

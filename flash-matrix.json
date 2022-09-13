@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 12 Sep 2022", 
+  "modifiedOn": "Tuesday, 13 Sep 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -274,7 +274,7 @@
       }, 
       "DisplacementMapFilterMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -346,7 +346,7 @@
       }, 
       "BitmapFilterType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1120,7 +1120,7 @@
       }, 
       "Vector3D": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1136,7 +1136,7 @@
       }, 
       "Orientation3D": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
