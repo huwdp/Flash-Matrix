@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 13 Sep 2022", 
+  "modifiedOn": "Friday, 16 Sep 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -388,7 +388,7 @@
       }, 
       "Context3DBlendFactor": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -396,7 +396,7 @@
       }, 
       "Context3DTriangleFace": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -404,7 +404,7 @@
       }, 
       "Context3DTextureFormat": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -412,7 +412,7 @@
       }, 
       "Context3DTextureFilter": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "No", 
         "gnash": "No", 
@@ -420,7 +420,7 @@
       }, 
       "Context3DWrapMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "No", 
         "gnash": "No", 
@@ -436,7 +436,7 @@
       }, 
       "Context3DVertexBufferFormat": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -452,7 +452,7 @@
       }, 
       "Context3DMipFilter": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "No", 
         "gnash": "No", 
@@ -460,7 +460,7 @@
       }, 
       "Context3DBufferUsage": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "No", 
         "gnash": "No", 
@@ -468,7 +468,7 @@
       }, 
       "Context3DClearMask": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -476,7 +476,7 @@
       }, 
       "Context3DProfile": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -484,7 +484,7 @@
       }, 
       "Context3DProgramType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -492,7 +492,7 @@
       }, 
       "Context3DRenderMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -500,7 +500,7 @@
       }, 
       "Context3DCompareMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -508,7 +508,7 @@
       }, 
       "Context3DStencilAction": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -584,7 +584,7 @@
       }, 
       "AudioDecoder": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -592,7 +592,7 @@
       }, 
       "VideoCodec": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -600,7 +600,7 @@
       }, 
       "H264Level": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -608,7 +608,7 @@
       }, 
       "VideoStatus": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -640,7 +640,7 @@
       }, 
       "StageVideoAvailabilityReason": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "No", 
         "gnash": "No", 
@@ -648,7 +648,7 @@
       }, 
       "SoundCodec": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -672,7 +672,7 @@
       }, 
       "MicrophoneEnhancedMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -720,7 +720,7 @@
       }, 
       "StageVideoAvailability": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -728,7 +728,7 @@
       }, 
       "AudioOutputChangeReason": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "No", 
         "gnash": "No", 
@@ -744,7 +744,7 @@
       }, 
       "H264Profile": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -818,7 +818,7 @@
       }, 
       "IMEConversionMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -826,7 +826,7 @@
       }, 
       "WorkerState": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "No", 
         "gnash": "No", 
@@ -834,7 +834,7 @@
       }, 
       "SecurityPanel": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -882,7 +882,7 @@
       }, 
       "SystemUpdaterType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -890,7 +890,7 @@
       }, 
       "TouchscreenType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -906,7 +906,7 @@
       }, 
       "MessageChannelState": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -948,7 +948,7 @@
     "desktop": {
       "ClipboardTransferMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -964,7 +964,7 @@
       }, 
       "ClipboardFormats": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -982,7 +982,7 @@
       }, 
       "DateTimeNameStyle": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -990,7 +990,7 @@
       }, 
       "LastOperationStatus": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -998,7 +998,7 @@
       }, 
       "CollatorMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1014,7 +1014,7 @@
       }, 
       "DateTimeStyle": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1030,7 +1030,7 @@
       }, 
       "DateTimeNameContext": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1070,7 +1070,7 @@
       }, 
       "NationalDigitsType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1204,7 +1204,7 @@
     "net": {
       "NetGroupReplicationStrategy": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1284,7 +1284,7 @@
       }, 
       "NetGroupSendResult": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1356,7 +1356,7 @@
       }, 
       "NetGroupReceiveMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1404,7 +1404,7 @@
       }, 
       "NetGroupSendMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1864,7 +1864,7 @@
       }, 
       "PrintJobOrientation": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1882,7 +1882,7 @@
     "ui": {
       "KeyboardType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1914,7 +1914,7 @@
       }, 
       "KeyLocation": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1922,7 +1922,7 @@
       }, 
       "MultitouchInputMode": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1930,7 +1930,7 @@
       }, 
       "MouseCursor": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1980,7 +1980,7 @@
     "security": {
       "CertificateStatus": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "No", 
         "shumway": "Yes", 
         "gnash": "No", 
