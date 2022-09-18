@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Friday, 16 Sep 2022", 
+  "modifiedOn": "Sunday, 18 Sep 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -166,7 +166,7 @@
       }, 
       "IDataInput": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "No", 
         "gnash": "No", 
@@ -198,7 +198,7 @@
       }, 
       "IDataOutput": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "No", 
         "gnash": "No", 
