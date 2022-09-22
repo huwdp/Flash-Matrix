@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 18 Sep 2022", 
+  "modifiedOn": "Thursday, 22 Sep 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1510,7 +1510,7 @@
       }, 
       "ThrottleType": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1702,7 +1702,7 @@
       }, 
       "SoftKeyboardTrigger": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1710,7 +1710,7 @@
       }, 
       "GesturePhase": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
