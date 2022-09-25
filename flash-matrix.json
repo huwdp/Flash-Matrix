@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 24 Sep 2022", 
+  "modifiedOn": "Sunday, 25 Sep 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -518,7 +518,7 @@
     "errors": {
       "MemoryError": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -526,7 +526,7 @@
       }, 
       "EOFError": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -534,7 +534,7 @@
       }, 
       "StackOverflowError": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -550,7 +550,7 @@
       }, 
       "InvalidSWFError": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -558,7 +558,7 @@
       }, 
       "IOError": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -566,7 +566,7 @@
       }, 
       "ScriptTimeoutError": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
