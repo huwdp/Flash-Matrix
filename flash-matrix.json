@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 25 Sep 2022", 
+  "modifiedOn": "Saturday, 01 Oct 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -1228,7 +1228,7 @@
       }, 
       "URLVariables": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
@@ -1428,7 +1428,7 @@
       }, 
       "LocalConnection": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "Yes", 
