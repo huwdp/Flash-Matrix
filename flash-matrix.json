@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 01 Oct 2022", 
+  "modifiedOn": "Friday, 14 Oct 2022", 
   "matrix": {
     "text": {
       "AntiAliasType": {
@@ -362,7 +362,7 @@
       }, 
       "DisplacementMapFilter": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Partially", 
         "gnash": "Yes", 
@@ -1726,7 +1726,7 @@
       }, 
       "UncaughtErrorEvents": {
         "adobeflash": "Yes", 
-        "ruffle": "No", 
+        "ruffle": "Yes", 
         "awayfl": "Yes", 
         "shumway": "Yes", 
         "gnash": "No", 
