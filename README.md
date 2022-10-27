@@ -22,6 +22,12 @@ sudo apt-get install pip3
 pip install lxml
 pip install requests
 ```
+
+It may be good to install python-is-python3
+```
+sudo apt-get install python-is-python3
+```
+
 ### Building matrix
 ```
 bash re-build-matrix.sh

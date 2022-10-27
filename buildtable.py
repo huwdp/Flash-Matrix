@@ -626,7 +626,7 @@ for subdir, dirs, files in os.walk(dir):
             fileKey = fileKey.lower()
             fileKey = re.sub(r'[^a-zA-Z0-9]', '', fileKey)
             for item in matrix:
-                for key, value in matrix[item].iteritems():
+                for key, value in matrix[item].items():
                     if fileKey.lower() == key.lower():
                         matrix[item][key]['ruffle'] = 'Yes'
 
