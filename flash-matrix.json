@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 27 Nov 2022",
+  "modifiedOn": "Monday, 05 Dec 2022",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1661,7 +1661,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "FileReference": {
@@ -1669,7 +1669,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Partially"
       },
       "FileReferenceList": {
@@ -1677,7 +1677,7 @@
         "shumway": "Partially",
         "lightspark": "No",
         "gnash": "Yes",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "GroupSpecifier": {
