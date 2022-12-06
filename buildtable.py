@@ -120,7 +120,7 @@ featureMatrix = {
             'Stage': dict(),
             'Stage3D': dict(),
             'StageAlign': dict(),
-            #	StageAspectRatio    
+            #	StageAspectRatio
             'StageDisplayState': dict(),
             #StageOrientation
             'StageQuality': dict(),
@@ -482,7 +482,7 @@ for subdir, dirs, files in os.walk(dir):
                     else:
                         matrix[subDirKey][fileKey]['awayfl'] = 'Yes'
 
-#  Parse Shumway files 
+#  Parse Shumway files
 dir = './shumway/src/flash'
 for subdir, dirs, files in os.walk(dir):
     for file in files:
@@ -601,7 +601,6 @@ for subdir, dirs, files in os.walk(dir):
                         matrix[item][found]['lightspark'] = 'Partially' # No
 
 # Find "Not implemented in all features to set as partially complete"
-dir = './lightspark/src/scripting/'
 for subdir, dirs, files in os.walk(dir):
     for file in files:
         if file.endswith('.cpp'):
@@ -617,18 +616,34 @@ for subdir, dirs, files in os.walk(dir):
 
 dir = './ruffle/core/src/avm2/globals/flash/'
 
+def ruffleFileKey(fileName):
+    fileKey = fileName.replace('.rs', '')
+    fileKey = fileKey.replace('.as', '')
+    fileKey = fileKey.lower()
+    fileKey = re.sub(r'[^a-zA-Z0-9]', '', fileKey)
+    return fileKey
+
 # We assume here that if the file exists then it is implemented 100%
 for subdir, dirs, files in os.walk(dir):
     for file in files:
         if file.endswith('.rs') or file.endswith('.as'):
-            fileKey = file.replace('.rs', '')
-            fileKey = fileKey.replace('.as', '')
-            fileKey = fileKey.lower()
-            fileKey = re.sub(r'[^a-zA-Z0-9]', '', fileKey)
+            fileKey = ruffleFileKey(file)
             for item in matrix:
                 for key, value in matrix[item].items():
                     if fileKey.lower() == key.lower():
                         matrix[item][key]['ruffle'] = 'Yes'
+
+# Find "Not implemented in all features to set as partially complete"
+for subdir, dirs, files in os.walk(dir):
+    for file in files:
+        if file.endswith('.rs'):
+            fileContent = open(os.path.join(subdir, file), "r")
+            lines = fileContent.read()
+            m = re.findall('log\:\:warn\!\(\"(.*)\..* not implemented\"\)', lines)
+            for item in matrix:
+                for found in m:
+                    if found in matrix[item].keys():
+                        matrix[item][found]['ruffle'] = 'Partially'
 
 # Override some features
 matrix['trace']['Trace']['lightspark'] = 'Yes'

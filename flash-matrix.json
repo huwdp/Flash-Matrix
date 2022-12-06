@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 05 Dec 2022",
+  "modifiedOn": "Tuesday, 06 Dec 2022",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -99,7 +99,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "BitmapDataChannel": {
@@ -2097,7 +2097,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "SecurityDomain": {
