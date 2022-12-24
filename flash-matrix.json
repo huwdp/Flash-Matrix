@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 06 Dec 2022",
+  "modifiedOn": "Saturday, 24 Dec 2022",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -163,7 +163,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "FrameLabel": {
@@ -187,7 +187,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "GraphicsBitmapFill": {
@@ -315,7 +315,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "InterpolationMethod": {
@@ -371,7 +371,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "MorphShape": {
@@ -693,7 +693,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "Program3D": {
@@ -1295,7 +1295,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "Utils3D": {
@@ -1693,7 +1693,7 @@
         "shumway": "Yes",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "NetConnection": {
@@ -1813,7 +1813,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "Responder": {
@@ -1837,7 +1837,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "SharedObjectFlushStatus": {
@@ -1877,7 +1877,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "URLRequestDefaults": {
@@ -2383,7 +2383,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "KeyboardType": {
