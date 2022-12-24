@@ -636,10 +636,10 @@ for subdir, dirs, files in os.walk(dir):
 # Find "Not implemented in all features to set as partially complete"
 for subdir, dirs, files in os.walk(dir):
     for file in files:
-        if file.endswith('.rs'):
+        if file.endswith('.rs') or file.endswith('.as'):
             fileContent = open(os.path.join(subdir, file), "r")
             lines = fileContent.read()
-            m = re.findall('log\:\:warn\!\(\"(.*)\..* not implemented\"\)', lines)
+            m = re.findall('log(?:\:\:|_)warn\!?\(\"(.*)\..* (?:[n|N]ot.* implemented|is a stub)\"\)', lines)
             for item in matrix:
                 for found in m:
                     if found in matrix[item].keys():
