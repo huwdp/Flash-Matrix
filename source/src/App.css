@@ -39,3 +39,23 @@ td:first-letter, th:first-letter {
 .featureUrl:hover {
     text-decoration: underline;
 }
+
+.featureName
+{
+  width: 300px;
+}
+
+.green-bg
+{
+  background-color: green;
+}
+
+.yellow-bg
+{
+  background-color: yellow;
+}
+
+.orange-bg
+{
+  background-color: orange;
+}
