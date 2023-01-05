@@ -21,6 +21,8 @@ cd ..
 
 python buildtable.py
 
+cp flash-matrix.json source/public/flash-matrix.json
+
 git add ruffle
 git add lightspark
 git add shumway
