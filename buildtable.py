@@ -639,7 +639,7 @@ for subdir, dirs, files in os.walk(dir):
         if file.endswith('.rs') or file.endswith('.as'):
             fileContent = open(os.path.join(subdir, file), "r")
             lines = fileContent.read()
-            m = re.findall('log(?:\:\:|_)warn\!?\(\"(.*)\..* (?:[n|N]ot.* implemented|is a stub)\"\)', lines)
+            m = re.findall('tracing(?:\:\:|_)warn\!?\(\"(.*)\..* (?:[n|N]ot.* implemented|is a stub)\"\)', lines)
             for item in matrix:
                 for found in m:
                     if found in matrix[item].keys():
