@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Wednesday, 04 Jan 2023",
+  "modifiedOn": "Monday, 09 Jan 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1693,7 +1693,7 @@
         "shumway": "Yes",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "NetConnection": {
@@ -1877,7 +1877,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "URLRequestDefaults": {

@@ -33,6 +33,10 @@ sudo apt-get install python-is-python3
 bash re-build-matrix.sh
 ```
 
+## Building React App
+
+ 1. cd into source folder
+ 2. Run ```build.sh```
 
 ## License
 

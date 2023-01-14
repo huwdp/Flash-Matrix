@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c95fd3a2.css",
-    "main.js": "/static/js/main.6eaed1d3.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/index.html",
-    "main.c95fd3a2.css.map": "/static/css/main.c95fd3a2.css.map",
-    "main.6eaed1d3.js.map": "/static/js/main.6eaed1d3.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Flash-Matrix/static/css/main.c95fd3a2.css",
+    "main.js": "/Flash-Matrix/static/js/main.346c2b5e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Flash-Matrix/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Flash-Matrix/index.html",
+    "main.c95fd3a2.css.map": "/Flash-Matrix/static/css/main.c95fd3a2.css.map",
+    "main.346c2b5e.js.map": "/Flash-Matrix/static/js/main.346c2b5e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Flash-Matrix/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c95fd3a2.css",
-    "static/js/main.6eaed1d3.js"
+    "static/js/main.346c2b5e.js"
   ]
 }
