@@ -654,6 +654,7 @@ matrix['display']['ShaderJob']['shumway'] = 'No'
 matrix['display']['ShaderParameter']['shumway'] = 'No'
 matrix['display']['ShaderPrecision']['shumway'] = 'No'
 matrix['trace']['Trace']['ruffle'] = 'Yes'
+matrix['display']['Loader']['ruffle'] = 'Partially'
 
 with open(fileName, "r") as read_file:
     existingFeatureMatrix = json.load(read_file)
