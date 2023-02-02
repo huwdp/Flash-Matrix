@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 22 Jan 2023",
+  "modifiedOn": "Thursday, 02 Feb 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -99,7 +99,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Partially"
       },
       "BitmapDataChannel": {
@@ -163,7 +163,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "FrameLabel": {
@@ -187,7 +187,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "GraphicsBitmapFill": {
@@ -315,7 +315,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "InterpolationMethod": {
@@ -371,7 +371,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "MorphShape": {
@@ -693,7 +693,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "Program3D": {
@@ -1295,7 +1295,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "Utils3D": {
@@ -1813,7 +1813,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "Responder": {
@@ -1837,7 +1837,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "SharedObjectFlushStatus": {
@@ -2097,7 +2097,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "SecurityDomain": {
@@ -2259,7 +2259,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "TextFieldAutoSize": {
@@ -2383,7 +2383,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "KeyboardType": {
