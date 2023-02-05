@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 02 Feb 2023",
+  "modifiedOn": "Sunday, 05 Feb 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1125,7 +1125,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "BitmapFilter": {
@@ -1173,7 +1173,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "DisplacementMapFilter": {
@@ -1213,7 +1213,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "GradientGlowFilter": {
@@ -1221,7 +1221,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "ShaderFilter": {
