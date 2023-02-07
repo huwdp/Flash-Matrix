@@ -639,7 +639,7 @@ for subdir, dirs, files in os.walk(dir):
         if file.endswith('.rs') or file.endswith('.as'):
             fileContent = open(os.path.join(subdir, file), "r")
             lines = fileContent.read()
-            m = re.findall('avm2_stub_.*?!\(activation, \"(?:[^.]*\.)*(.*?)\"|log_warn\(\"(.*)\..* (?:[n|N]ot.* implemented|is a stub)\"\)', lines)
+            m = re.findall('stub_.*?\(.*?\"(?:[^.]*\.)*(.*?)\"', lines)
             for item in matrix:
                 for found in m:
                     if found in matrix[item].keys():
