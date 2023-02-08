@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 05 Feb 2023",
+  "modifiedOn": "Wednesday, 08 Feb 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -921,7 +921,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "NetDataEvent": {
@@ -1065,7 +1065,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "TouchEvent": {
@@ -1669,7 +1669,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "FileReferenceList": {
@@ -1677,7 +1677,7 @@
         "shumway": "Partially",
         "lightspark": "No",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "GroupSpecifier": {
@@ -1693,7 +1693,7 @@
         "shumway": "Yes",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "NetConnection": {
@@ -1837,7 +1837,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "SharedObjectFlushStatus": {
@@ -1877,7 +1877,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "URLRequestDefaults": {
@@ -2097,7 +2097,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "SecurityDomain": {
@@ -2227,7 +2227,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "StyleSheet": {
@@ -2383,7 +2383,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "KeyboardType": {
@@ -2489,7 +2489,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       }
     }
