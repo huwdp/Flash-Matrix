@@ -526,17 +526,6 @@ for subdir, dirs, files in os.walk(dir):
                 if fileKey in matrix[item].keys():
                     matrix[item][fileKey]['gnash'] = 'Yes'
 
-for subdir, dirs, files in os.walk(dir):
-    for file in files:
-        if file.endswith('.cpp'):
-            fileContent = open(os.path.join(subdir, file), "r")
-            lines = fileContent.read()
-            m = re.findall('\w+\(vm, "(\w+)"\)', lines)     # Be more specific
-            for item in matrix:
-                for found in m:
-                    if fileKey in matrix[item].keys():
-                        matrix[item][fileKey]['gnash'] = 'Yes'
-
 # Parse Lightspark files
 # Find Lightspark features
 lightsparkRegisters = [
@@ -572,19 +561,19 @@ lightsparkRegisters = [
 for file in lightsparkRegisters:
     fileContent = open(file, "r")
     lines = fileContent.read()
-    m = re.findall('builtin\-\>registerBuiltin\("(\w+)",', lines)
+    matches = re.findall('builtin\-\>registerBuiltin\("(\w+)",', lines)
     for item in matrix:
-        for found in m:
-            if found in matrix[item].keys():
-                matrix[item][found]['lightspark'] = 'Yes'
+        for match in matches:
+            if match in matrix[item].keys():
+                matrix[item][match]['lightspark'] = 'Yes'
 
 # Find more lightspark features - This needs to be improved
 fileContent = open('./lightspark/src/allclasses.h', "r")
 lines = fileContent.read()
-m = re.findall('REGISTER_CLASS_NAME\((\w+),\"(.*)\"', lines)
+matches = re.findall('REGISTER_CLASS_NAME\((\w+),\"(.*)\"', lines)
 # Fill in matrix here TODO
 
-m = re.findall('REGISTER_CLASS_NAME2\((\w+),\"(.*)\"', lines)
+matches = re.findall('REGISTER_CLASS_NAME2\((\w+),\"(.*)\"', lines)
 # Fill in matrix here TODO
 
 # Find "Not implemented in all features to set as partially complete"
@@ -594,11 +583,11 @@ for subdir, dirs, files in os.walk(dir):
         if file.endswith('.cpp'):
             fileContent = open(os.path.join(subdir, file), "r")
             lines = fileContent.read()
-            m = re.findall('LOG\(LOG_NOT_IMPLEMENTED,\"(\w+) is not implemented', lines)
+            matches = re.findall('LOG\(LOG_NOT_IMPLEMENTED,\"(\w+) is not implemented', lines)
             for item in matrix:
-                for found in m:
-                    if found in matrix[item].keys():
-                        matrix[item][found]['lightspark'] = 'Partially' # No
+                for match in matches:
+                    if match in matrix[item].keys():
+                        matrix[item][match]['lightspark'] = 'Partially' # No
 
 # Find "Not implemented in all features to set as partially complete"
 for subdir, dirs, files in os.walk(dir):
@@ -606,11 +595,11 @@ for subdir, dirs, files in os.walk(dir):
         if file.endswith('.cpp'):
             fileContent = open(os.path.join(subdir, file), "r")
             lines = fileContent.read()
-            m = re.findall('LOG\(LOG_NOT_IMPLEMENTED,\"(\w+)\.', lines)
+            matches = re.findall('LOG\(LOG_NOT_IMPLEMENTED,\"(\w+)\.', lines)
             for item in matrix:
-                for found in m:
-                    if found in matrix[item].keys():
-                        matrix[item][found]['lightspark'] = 'Partially'
+                for match in matches:
+                    if match in matrix[item].keys():
+                        matrix[item][match]['lightspark'] = 'Partially'
 
 # Parse Ruffle files
 
@@ -646,7 +635,6 @@ for subdir, dirs, files in os.walk(dir):
                 for item in matrix:
                     for match in matches:
                         if match in matrix[item].keys():
-                            print("hrllo")
                             matrix[item][match]['ruffle'] = 'Partially'
 
 # Override some features
