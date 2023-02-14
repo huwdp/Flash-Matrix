@@ -637,13 +637,17 @@ for subdir, dirs, files in os.walk(dir):
 for subdir, dirs, files in os.walk(dir):
     for file in files:
         if file.endswith('.rs') or file.endswith('.as'):
-            fileContent = open(os.path.join(subdir, file), "r")
-            lines = fileContent.read()
-            m = re.findall('stub_.*?\(.*?\"(?:[^.]*\.)*(.*?)\"', lines)
-            for item in matrix:
-                for found in m:
-                    if found in matrix[item].keys():
-                        matrix[item][found]['ruffle'] = 'Partially'
+            fileReader = open(os.path.join(subdir, file), "r")
+            content = fileReader.read()
+            lines = content.split(";")
+            for line in lines:
+                #print(line + "bobbobobobobobobobobobobob")
+                matches = re.findall('stub_.*?\(.*?\"(?:[^.]*\.)*(.*?)\"', line)
+                for item in matrix:
+                    for match in matches:
+                        if match in matrix[item].keys():
+                            print("hrllo")
+                            matrix[item][match]['ruffle'] = 'Partially'
 
 # Override some features
 matrix['trace']['Trace']['lightspark'] = 'Yes'

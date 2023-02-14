@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 12 Feb 2023",
+  "modifiedOn": "Tuesday, 14 Feb 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -91,7 +91,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "BitmapData": {
@@ -99,7 +99,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "BitmapDataChannel": {
@@ -155,7 +155,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Partially",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "DisplayObjectContainer": {
@@ -187,7 +187,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "GraphicsBitmapFill": {
@@ -315,7 +315,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "InterpolationMethod": {
@@ -363,7 +363,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "LoaderInfo": {
@@ -371,7 +371,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "MorphShape": {
@@ -507,7 +507,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "Stage3D": {
@@ -1073,7 +1073,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "TransformGestureEvent": {
@@ -1555,7 +1555,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "SoundChannel": {
@@ -2195,7 +2195,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Partially",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "FontStyle": {
@@ -2259,7 +2259,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "TextFieldAutoSize": {
