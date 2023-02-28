@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 26 Feb 2023",
+  "modifiedOn": "Tuesday, 28 Feb 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1961,7 +1961,7 @@
         "shumway": "Partially",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       }
     },
@@ -2161,7 +2161,7 @@
         "shumway": "No",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "WorkerState": {
@@ -2235,7 +2235,7 @@
         "shumway": "Yes",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "TextColorType": {
