@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Flash-Matrix/static/css/main.c95fd3a2.css",
-    "main.js": "/Flash-Matrix/static/js/main.346c2b5e.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Flash-Matrix/static/js/787.28cb0dcd.chunk.js",
+    "main.js": "/Flash-Matrix/static/js/main.93b164ed.js",
+    "static/js/496.fbea8424.chunk.js": "/Flash-Matrix/static/js/496.fbea8424.chunk.js",
     "index.html": "/Flash-Matrix/index.html",
     "main.c95fd3a2.css.map": "/Flash-Matrix/static/css/main.c95fd3a2.css.map",
-    "main.346c2b5e.js.map": "/Flash-Matrix/static/js/main.346c2b5e.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Flash-Matrix/static/js/787.28cb0dcd.chunk.js.map"
+    "main.93b164ed.js.map": "/Flash-Matrix/static/js/main.93b164ed.js.map",
+    "496.fbea8424.chunk.js.map": "/Flash-Matrix/static/js/496.fbea8424.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c95fd3a2.css",
-    "static/js/main.346c2b5e.js"
+    "static/js/main.93b164ed.js"
   ]
 }
