@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 13 Mar 2023",
+  "modifiedOn": "Friday, 17 Mar 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -283,7 +283,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "IGraphicsFill": {
@@ -291,7 +291,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "IGraphicsPath": {
@@ -299,7 +299,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "IGraphicsStroke": {
@@ -307,7 +307,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "InteractiveObject": {
@@ -1337,7 +1337,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "CurrencyParseResult": {
@@ -2283,7 +2283,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "TextFormatAlign": {
