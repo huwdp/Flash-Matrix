@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 19 Mar 2023",
+  "modifiedOn": "Monday, 20 Mar 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -7,7 +7,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "AccessibilityImplementation": {
@@ -1345,7 +1345,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "DateTimeFormatter": {
@@ -1459,7 +1459,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "AVTagData": {
@@ -1467,7 +1467,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "AVURLLoader": {
@@ -1651,7 +1651,7 @@
         "shumway": "Yes",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       }
     },
@@ -1797,7 +1797,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "NetStreamPlayTransitions": {
@@ -1885,7 +1885,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "URLRequestHeader": {
@@ -2049,7 +2049,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "IMEConversionMode": {
@@ -2065,7 +2065,7 @@
         "shumway": "Yes",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "LoaderContext": {
@@ -2315,7 +2315,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "TextSnapshot": {
@@ -2415,7 +2415,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "Multitouch": {
