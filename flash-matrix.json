@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 20 Mar 2023",
+  "modifiedOn": "Sunday, 26 Mar 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1765,7 +1765,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "NetStreamAppendBytesAction": {
@@ -1781,7 +1781,7 @@
         "shumway": "Yes",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "NetStreamMulticastInfo": {
@@ -1789,7 +1789,7 @@
         "shumway": "Yes",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "NetStreamPlayOptions": {
