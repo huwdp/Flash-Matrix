@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 03 Apr 2023",
+  "modifiedOn": "Wednesday, 05 Apr 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -15,7 +15,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "AccessibilityProperties": {
@@ -31,7 +31,7 @@
         "shumway": "Yes",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "ISimpleTextSelection": {
@@ -39,7 +39,7 @@
         "shumway": "Yes",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       }
     },
