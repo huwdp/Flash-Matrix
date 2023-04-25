@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 23 Apr 2023",
+  "modifiedOn": "Tuesday, 25 Apr 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -379,7 +379,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "MovieClip": {
