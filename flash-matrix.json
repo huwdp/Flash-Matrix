@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 29 Apr 2023",
+  "modifiedOn": "Wednesday, 10 May 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1943,7 +1943,7 @@
         "shumway": "Yes",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "PrintJobOrientation": {
