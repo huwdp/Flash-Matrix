@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 29 May 2023",
+  "modifiedOn": "Saturday, 03 Jun 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -427,7 +427,7 @@
         "shumway": "Yes",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "ShaderInput": {
@@ -435,7 +435,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "ShaderJob": {
@@ -443,7 +443,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "ShaderParameter": {
@@ -451,7 +451,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "ShaderParameterType": {
