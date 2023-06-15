@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 10 Jun 2023",
+  "modifiedOn": "Thursday, 15 Jun 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1271,7 +1271,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "Point": {
@@ -1295,7 +1295,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "Utils3D": {
