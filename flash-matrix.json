@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 15 Jun 2023",
+  "modifiedOn": "Sunday, 18 Jun 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1229,7 +1229,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       }
     },
