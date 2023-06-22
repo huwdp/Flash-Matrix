@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 18 Jun 2023",
+  "modifiedOn": "Thursday, 22 Jun 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1971,7 +1971,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "NewObjectSample": {
@@ -1979,7 +1979,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "Sample": {
@@ -1987,7 +1987,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "StackFrame": {
@@ -1995,7 +1995,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       }
     },
