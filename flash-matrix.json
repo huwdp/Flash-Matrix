@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Friday, 07 Jul 2023",
+  "modifiedOn": "Tuesday, 11 Jul 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -701,7 +701,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "VertexBuffer3D": {
