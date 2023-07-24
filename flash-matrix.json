@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 11 Jul 2023",
+  "modifiedOn": "Monday, 24 Jul 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -91,7 +91,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "BitmapData": {
@@ -1393,7 +1393,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "NationalDigitsType": {
@@ -1409,7 +1409,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "NumberParseResult": {
@@ -1417,7 +1417,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "StringTools": {
