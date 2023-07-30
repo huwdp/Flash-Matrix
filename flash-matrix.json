@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 24 Jul 2023",
+  "modifiedOn": "Sunday, 30 Jul 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -953,7 +953,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "ProgressEvent": {
@@ -1081,7 +1081,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "UncaughtErrorEvent": {
