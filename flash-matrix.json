@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 07 Oct 2023",
+  "modifiedOn": "Saturday, 28 Oct 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1691,7 +1691,7 @@
       "LocalConnection": {
         "adobeflash": "Yes",
         "shumway": "Yes",
-        "lightspark": "Partially",
+        "lightspark": "Yes",
         "gnash": "Yes",
         "ruffle": "Partially",
         "awayfl": "Yes"
