@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 02 Nov 2023",
+  "modifiedOn": "Saturday, 11 Nov 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1701,7 +1701,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "NetGroup": {
@@ -1821,7 +1821,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "SecureSocket": {
