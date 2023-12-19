@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 16 Nov 2023",
+  "modifiedOn": "Tuesday, 19 Dec 2023",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -1074,7 +1074,7 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Partially",
-        "awayfl": "Yes"
+        "awayfl": "Partially"
       },
       "TransformGestureEvent": {
         "adobeflash": "Yes",
