@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 16 Jan 2024",
+  "modifiedOn": "Sunday, 28 Jan 2024",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -49,7 +49,7 @@
         "shumway": "Partially",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "ClipboardFormats": {
@@ -1489,7 +1489,7 @@
       "Camera": {
         "adobeflash": "Yes",
         "shumway": "Partially",
-        "lightspark": "Yes",
+        "lightspark": "Partially",
         "gnash": "Yes",
         "ruffle": "Partially",
         "awayfl": "No"
@@ -1977,7 +1977,7 @@
       "NewObjectSample": {
         "adobeflash": "Yes",
         "shumway": "Partially",
-        "lightspark": "Yes",
+        "lightspark": "Partially",
         "gnash": "No",
         "ruffle": "Partially",
         "awayfl": "Partially"

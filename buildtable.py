@@ -567,15 +567,6 @@ for file in lightsparkRegisters:
             if match in matrix[item].keys():
                 matrix[item][match]['lightspark'] = 'Yes'
 
-# Find more lightspark features - This needs to be improved
-fileContent = open('./lightspark/src/allclasses.h', "r")
-lines = fileContent.read()
-matches = re.findall('REGISTER_CLASS_NAME\((\w+),\"(.*)\"', lines)
-# Fill in matrix here TODO
-
-matches = re.findall('REGISTER_CLASS_NAME2\((\w+),\"(.*)\"', lines)
-# Fill in matrix here TODO
-
 # Find "Not implemented in all features to set as partially complete"
 dir = './lightspark/src/scripting/'
 for subdir, dirs, files in os.walk(dir):
@@ -588,14 +579,12 @@ for subdir, dirs, files in os.walk(dir):
                 for match in matches:
                     if match in matrix[item].keys():
                         matrix[item][match]['lightspark'] = 'Partially' # No
-
-# Find "Not implemented in all features to set as partially complete"
-for subdir, dirs, files in os.walk(dir):
-    for file in files:
-        if file.endswith('.cpp'):
-            fileContent = open(os.path.join(subdir, file), "r")
-            lines = fileContent.read()
             matches = re.findall('LOG\(LOG_NOT_IMPLEMENTED,\"(\w+)\.', lines)
+            for item in matrix:
+                for match in matches:
+                    if match in matrix[item].keys():
+                        matrix[item][match]['lightspark'] = 'Partially'
+            matches = re.findall('ASFUNCTIONBODY_GETTER_NOT_IMPLEMENTED\((\w+)\,', lines)
             for item in matrix:
                 for match in matches:
                     if match in matrix[item].keys():
@@ -630,7 +619,6 @@ for subdir, dirs, files in os.walk(dir):
             content = fileReader.read()
             lines = content.split(";")
             for line in lines:
-                #print(line + "bobbobobobobobobobobobobob")
                 matches = re.findall('stub_.*?\(.*?\"(?:[^.]*\.)*(.*?)\"', line)
                 for item in matrix:
                     for match in matches:
