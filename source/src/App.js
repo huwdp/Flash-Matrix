@@ -44,8 +44,8 @@ export default function App() {
 
   const [players, setPlayers] = useState([
     "adobeflash",
-    "lightspark",
     "ruffle",
+    "lightspark",
     "shumway",
     "awayfl",
     "gnash"

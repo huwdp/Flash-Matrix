@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 16 Nov 2023",
+  "modifiedOn": "Tuesday, 30 Jan 2024",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -43,13 +43,31 @@
         "awayfl": "No"
       }
     },
+    "concurrent": {
+      "Condition": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "Mutex": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      }
+    },
     "desktop": {
       "Clipboard": {
         "adobeflash": "Yes",
         "shumway": "Partially",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "ClipboardFormats": {
@@ -84,6 +102,14 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "AVLoader": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
         "awayfl": "No"
       },
       "Bitmap": {
@@ -515,7 +541,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "StageAlign": {
@@ -796,6 +822,38 @@
         "ruffle": "Yes",
         "awayfl": "Yes"
       },
+      "AudioOutputChangeEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "AVDictionaryDataEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "AVHTTPStatusEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "AVPauseAtPeriodEndEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
       "ContextMenuEvent": {
         "adobeflash": "Yes",
         "shumway": "Yes",
@@ -811,6 +869,86 @@
         "gnash": "No",
         "ruffle": "Yes",
         "awayfl": "Yes"
+      },
+      "DRMAuthenticationCompleteEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "DRMAuthenticationErrorEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "DRMDeviceGroupErrorEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "DRMDeviceGroupEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "DRMErrorEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "DRMLicenseRequestEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "DRMMetadataEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "DRMReturnVoucherCompleteEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "DRMReturnVoucherErrorEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "DRMStatusEvent": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
       },
       "ErrorEvent": {
         "adobeflash": "Yes",
@@ -875,6 +1013,14 @@
         "gnash": "No",
         "ruffle": "Yes",
         "awayfl": "Yes"
+      },
+      "Geolocation": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
       },
       "HTTPStatusEvent": {
         "adobeflash": "Yes",
@@ -1074,7 +1220,7 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Partially",
-        "awayfl": "Yes"
+        "awayfl": "Partially"
       },
       "TransformGestureEvent": {
         "adobeflash": "Yes",
@@ -1353,7 +1499,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "DateTimeNameContext": {
@@ -1489,7 +1635,7 @@
       "Camera": {
         "adobeflash": "Yes",
         "shumway": "Partially",
-        "lightspark": "Yes",
+        "lightspark": "Partially",
         "gnash": "Yes",
         "ruffle": "Partially",
         "awayfl": "No"
@@ -1880,14 +2026,6 @@
         "ruffle": "Yes",
         "awayfl": "Yes"
       },
-      "URLRequestDefaults": {
-        "adobeflash": "Yes",
-        "shumway": "No",
-        "lightspark": "No",
-        "gnash": "No",
-        "ruffle": "Partially",
-        "awayfl": "No"
-      },
       "URLRequestHeader": {
         "adobeflash": "Yes",
         "shumway": "Yes",
@@ -1977,7 +2115,7 @@
       "NewObjectSample": {
         "adobeflash": "Yes",
         "shumway": "Partially",
-        "lightspark": "Yes",
+        "lightspark": "Partially",
         "gnash": "No",
         "ruffle": "Partially",
         "awayfl": "Partially"
@@ -2008,6 +2146,14 @@
         "ruffle": "Yes",
         "awayfl": "No"
       },
+      "X500DistinguishedName": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
       "X509Certificate": {
         "adobeflash": "Yes",
         "shumway": "Partially",
@@ -2023,7 +2169,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       }
     },
@@ -2468,6 +2614,14 @@
         "ruffle": "Yes",
         "awayfl": "Yes"
       },
+      "IExternalizable": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
       "Timer": {
         "adobeflash": "Yes",
         "shumway": "Yes",
@@ -2490,6 +2644,40 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Partially",
+        "awayfl": "Yes"
+      },
+      "Proxy": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      }
+    },
+    "xml": {
+      "XMLDocument": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "XMLNode": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Partially",
+        "gnash": "Yes",
+        "ruffle": "Partially",
+        "awayfl": "Yes"
+      },
+      "XMLNodeType": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       }
     }

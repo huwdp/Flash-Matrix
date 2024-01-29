@@ -10,6 +10,36 @@ import re
 fileName = 'flash-matrix.json'
 dt_date = datetime.datetime.now()
 
+#ArgumentError
+#Array
+#Boolean
+#Class
+#Date
+#DefinitionError
+#Error
+#EvalError
+#Function
+#int
+#JSON
+#Math
+#Namespace
+#Number
+#Object
+#QName
+#RangeError
+#ReferenceError
+#RegExp
+#SecurityError
+#String
+#SyntaxError
+#TypeError
+#uint
+#UninitializedError
+#URIError
+#VerifyError
+#XML
+#XMLList
+
 featureMatrix = {
     'modifiedOn': dt_date.strftime("%A, %d %b %Y"),
     'matrix':
@@ -30,6 +60,10 @@ featureMatrix = {
         #    'StageCapture':dict(),
         #    'StageCaptureEvent':dict()
         #},
+        'concurrent': {
+            'Condition': dict(),
+            'Mutex': dict()
+        },
         'desktop' : { # Checked
             'Clipboard':dict(),
             'ClipboardFormats':dict(),
@@ -53,6 +87,7 @@ featureMatrix = {
             'AVM1Movie': dict(),
             'ActionScriptVersion': dict(),
             'AVM1Movie': dict(),
+            'AVLoader': dict(),
             'Bitmap': dict(),
             'BitmapData': dict(),
             'BitmapDataChannel': dict(),
@@ -166,9 +201,24 @@ featureMatrix = {
             'AccelerometerEvent': dict(),
             'ActivityEvent': dict(),
             'AsyncErrorEvent': dict(),
+            'AudioOutputChangeEvent': dict(),
+            'AVDictionaryDataEvent': dict(),
+            'AVHTTPStatusEvent': dict(),
+            'AVPauseAtPeriodEndEvent': dict(),
             # BrowserInvokeEvent AIR
             'ContextMenuEvent': dict(),
             'DataEvent': dict(),
+            'DRMAuthenticationCompleteEvent': dict(),
+            'DRMAuthenticationErrorEvent': dict(),
+            #'DRMAuthenticateEvent': dict(), AIR
+            'DRMDeviceGroupErrorEvent': dict(),
+            'DRMDeviceGroupEvent': dict(),
+            'DRMErrorEvent': dict(),
+            'DRMLicenseRequestEvent': dict(),
+            'DRMMetadataEvent': dict(),
+            'DRMReturnVoucherCompleteEvent': dict(),
+            'DRMReturnVoucherErrorEvent': dict(),
+            'DRMStatusEvent': dict(),
             'ErrorEvent': dict(),
             'Event': dict(),
             'EventDispatcher': dict(),
@@ -179,6 +229,7 @@ featureMatrix = {
             #'GeolocationEvent': dict(), AIR/FlashLite
             'GestureEvent': dict(),
             'GesturePhase': dict(),
+            'Geolocation': dict(),
             'HTTPStatusEvent': dict(),
             'IEventDispatcher': dict(),
             'IMEEvent': dict(),
@@ -332,7 +383,7 @@ featureMatrix = {
             'URLLoader': dict(),
             'URLLoaderDataFormat': dict(),
             'URLRequest': dict(),
-            'URLRequestDefaults': dict(),
+            #'URLRequestDefaults': dict(), AIR
             'URLRequestHeader': dict(),
             'URLRequestMethod': dict(),
             'URLStream': dict(),
@@ -358,13 +409,13 @@ featureMatrix = {
         },
         'security' : { # Checked
             'CertificateStatus': dict(),
-            #'ReferencesValidationSetting': dict(),
-            #'RevocationCheckSettings': dict(),
-            #'SignatureStatus': dict(),
-            #'SignerTrustSettings': dict(),
-            #'X500DistinguishedName': dict(),
+            #'ReferencesValidationSetting': dict(), AIR
+            #'RevocationCheckSettings': dict(), AIR
+            #'SignatureStatus': dict(), AIR
+            #'SignerTrustSettings': dict(), AIR
+            'X500DistinguishedName': dict(),
             'X509Certificate': dict(),
-            #'XMLSignatureValidator': dict(),
+            #'XMLSignatureValidator': dict(), AIR
         },
         'sensors' : { # Checked
             'Accelerometer': dict(),
@@ -447,9 +498,16 @@ featureMatrix = {
             'Endian': dict(),
             'IDataInput': dict(),
             'IDataOutput': dict(),
+            'IExternalizable': dict(),
             'Timer': dict(),
             'ByteArray': dict(),
-            'Dictionary': dict()
+            'Dictionary': dict(),
+            'Proxy': dict()
+        },
+        'xml': {
+            'XMLDocument': dict(),
+            'XMLNode': dict(),
+            'XMLNodeType': dict()
         }
     }
 }
