@@ -61,6 +61,16 @@
         "awayfl": "No"
       }
     },
+    "crypto": {
+      "crypto": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      }
+    },
     "desktop": {
       "Clipboard": {
         "adobeflash": "Yes",
@@ -736,6 +746,48 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Partially",
+        "awayfl": "No"
+      }
+    },
+    "display3D.textures": {
+      "CubeTexture": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Partially",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "RectangleTexture": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Partially",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "Texture": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "TextureBase": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Partially",
+        "awayfl": "No"
+      },
+      "VideoTexture": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Partially",
+        "gnash": "No",
+        "ruffle": "No",
         "awayfl": "No"
       }
     },
@@ -2067,6 +2119,72 @@
         "awayfl": "No"
       }
     },
+    "net.drm": {
+      "AuthenticationMethod": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "DRMContentData": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "DRMDeviceGroup": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "DRMManager": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "DRMPlaybackTimeWindow": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "DRMVoucher": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "LoadVoucherSetting": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "VoucherAccessInfo": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      }
+    },
     "printing": {
       "PrintJob": {
         "adobeflash": "Yes",
@@ -2469,6 +2587,282 @@
         "shumway": "Partially",
         "lightspark": "No",
         "gnash": "Yes",
+        "ruffle": "No",
+        "awayfl": "Yes"
+      }
+    },
+    "text.engine": {
+      "BreakOpportunity": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "CFFHinting": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "ContentElement": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Partially",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "DigitCase": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "DigitWidth": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "EastAsianJustifier": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "ElementFormat": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "FontDescription": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Partially",
+        "awayfl": "Yes"
+      },
+      "FontLookup": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "FontMetrics": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "FontPosture": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "FontWeight": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "GraphicElement": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Partially",
+        "awayfl": "Yes"
+      },
+      "GroupElement": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "JustificationStyle": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Kerning": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "LigatureLevel": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "LineJustification": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "RenderingMode": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "SpaceJustifier": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "TabAlignment": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "TabStop": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "TextBaseline": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "TextBlock": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Partially",
+        "gnash": "No",
+        "ruffle": "Partially",
+        "awayfl": "Partially"
+      },
+      "TextElement": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "TextJustifier": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "TextLine": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "Partially",
+        "gnash": "No",
+        "ruffle": "Partially",
+        "awayfl": "Yes"
+      },
+      "TextLineCreationResult": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "TextLineMirrorRegion": {
+        "adobeflash": "Yes",
+        "shumway": "Partially",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "Yes"
+      },
+      "TextLineValidity": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "TextRotation": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "TypographicCase": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      }
+    },
+    "text.ime": {
+      "CompositionAttributeRange": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "Yes"
+      },
+      "IIMEClient": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "No",
+        "gnash": "No",
         "ruffle": "No",
         "awayfl": "Yes"
       }

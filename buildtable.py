@@ -64,6 +64,9 @@ featureMatrix = {
             'Condition': dict(),
             'Mutex': dict()
         },
+        'crypto': {
+            'crypto': dict()
+        },
         'desktop' : { # Checked
             'Clipboard':dict(),
             'ClipboardFormats':dict(),
@@ -183,6 +186,13 @@ featureMatrix = {
             'IndexBuffer3D': dict(),
             'Program3D': dict(),
             'VertexBuffer3D': dict(),
+        },
+        'display3D.textures': {
+            'CubeTexture': dict(),
+            'RectangleTexture': dict(),
+            'Texture': dict(),
+            'TextureBase': dict(),
+            'VideoTexture': dict()
         },
         'errors' : {
             #'DRMManagerError': dict(), AIR
@@ -390,6 +400,16 @@ featureMatrix = {
             'URLVariables': dict(),
             'XMLSocket': dict()
         },
+        'net.drm': {
+            'AuthenticationMethod': dict(),
+            'DRMContentData': dict(),
+            'DRMDeviceGroup': dict(),
+            'DRMManager': dict(),
+            'DRMPlaybackTimeWindow': dict(),
+            'DRMVoucher': dict(),
+            'LoadVoucherSetting': dict(),
+            'VoucherAccessInfo': dict()
+        },
         'printing' : { # Checked
             #'PaperSize': dict(), AIR
             'PrintJob': dict(),
@@ -471,6 +491,44 @@ featureMatrix = {
             'TextRenderer': dict(),
             'TextSnapshot': dict(),
         },
+        'text.engine': {
+            'BreakOpportunity': dict(),
+            'CFFHinting': dict(),
+            'ContentElement': dict(),
+            'DigitCase': dict(),
+            'DigitWidth': dict(),
+            'EastAsianJustifier': dict(),
+            'ElementFormat': dict(),
+            'FontDescription': dict(),
+            'FontLookup': dict(),
+            'FontMetrics': dict(),
+            'FontPosture': dict(),
+            'FontWeight': dict(),
+            'GraphicElement': dict(),
+            'GroupElement': dict(),
+            'JustificationStyle': dict(),
+            'Kerning': dict(),
+            'LigatureLevel': dict(),
+            'LineJustification': dict(),
+            'RenderingMode': dict(),
+            'SpaceJustifier': dict(),
+            'TabAlignment': dict(),
+            'TabStop': dict(),
+            'TextBaseline': dict(),
+            'TextBlock': dict(),
+            'TextElement': dict(),
+            'TextJustifier': dict(),
+            'TextLine': dict(),
+            'TextLineCreationResult': dict(),
+            'TextLineMirrorRegion': dict(),
+            'TextLineValidity': dict(),
+            'TextRotation': dict(),
+            'TypographicCase': dict()
+        },
+        'text.ime': {
+            'CompositionAttributeRange': dict(),
+            'IIMEClient': dict()
+        },
         'trace' : {
             'Trace': dict()
         },
@@ -522,14 +580,13 @@ for category in matrix:
 #==================Parse Flash Players for stats==================
 
 # Parse AwayFL Files
-
 dir = './playerglobal/lib'
 for subdir, dirs, files in os.walk(dir):
     for file in files:
         if file.endswith('.ts'):
             fileContent = open(os.path.join(subdir, file), "r")
             lines = fileContent.read()
-            subDirKey = subdir.replace(dir + '/','')
+            subDirKey = subdir.replace(dir + '/','').replace('/', '.')
             fileKey = file.replace('.ts', '')
             if subDirKey in matrix.keys():
                 if fileKey in matrix[subDirKey].keys():
@@ -547,7 +604,7 @@ for subdir, dirs, files in os.walk(dir):
         if file.endswith('.ts'):
             fileContent = open(os.path.join(subdir, file), "r")
             lines = fileContent.read()
-            subDirKey = subdir.replace(dir + '/','')
+            subDirKey = subdir.replace(dir + '/','').replace('/', '.')
             fileKey = file.replace('.ts', '')
             if subDirKey in matrix.keys():
                 if fileKey in matrix[subDirKey].keys():
@@ -564,7 +621,6 @@ for subdir, dirs, files in os.walk(dir):
 # Parse Gnash files
 
 dir = './gnash/libcore/'
-
 for subdir, dirs, files in os.walk(dir):
     for file in files:
         if file.endswith('.cpp'):
@@ -572,9 +628,6 @@ for subdir, dirs, files in os.walk(dir):
             for item in matrix:
                 if fileKey in matrix[item].keys():
                     matrix[item][fileKey]['gnash'] = 'Partially'
-
-for subdir, dirs, files in os.walk(dir):
-    for file in files:
         if file.endswith('_as.cpp'):
             fileContent = open(os.path.join(subdir, file), "r")
             lines = fileContent.read()
@@ -647,6 +700,8 @@ for subdir, dirs, files in os.walk(dir):
                 for match in matches:
                     if match in matrix[item].keys():
                         matrix[item][match]['lightspark'] = 'Partially'
+
+matrix['crypto']['crypto']['lightspark'] = 'Yes'
 
 # Parse Ruffle files
 
