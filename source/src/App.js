@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 // TODO: Warning: Each child in a list should have a unique "key" prop.
 // TODO: Possibly use Reducer
 
-const flashTotalClassCount = 306;
+const flashTotalClassCount = 377;
 
 function replaceNames(name) {
     return name.replace("adobeflash", "Adobe Flash").replace("awayfl", "AwayFL");
