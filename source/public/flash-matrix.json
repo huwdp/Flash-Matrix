@@ -1,6 +1,248 @@
 {
-  "modifiedOn": "Tuesday, 30 Jan 2024",
+  "modifiedOn": "Wednesday, 31 Jan 2024",
   "matrix": {
+    "top-level": {
+      "ArgumentError": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "arguments": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "Not yet set"
+      },
+      "Array": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "Boolean": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "Class": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Partially",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "Date": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "DefinitionError": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "Error": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "EvalError": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "Function": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "int": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "JSON": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "Math": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "Namespace": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Partially",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "Number": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "Object": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Partially",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "QName": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "RangeError": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "ReferenceError": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "RegExp": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "SecurityError": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "String": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "SyntaxError": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "TypeError": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "uint": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "URIError": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "Vector": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "VerifyError": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "XML": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Partially",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      },
+      "XMLList": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "Partially",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Not yet set"
+      }
+    },
     "accessibility": {
       "Accessibility": {
         "adobeflash": "Yes",
