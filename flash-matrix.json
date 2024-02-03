@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 30 Jan 2024",
+  "modifiedOn": "Saturday, 03 Feb 2024",
   "matrix": {
     "accessibility": {
       "Accessibility": {
@@ -2345,7 +2345,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "MessageChannelState": {
