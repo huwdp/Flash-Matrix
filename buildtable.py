@@ -600,8 +600,11 @@ for subdir, dirs, files in os.walk(dir):
                         matrix[subDirKey][fileKey]['awayfl'] = 'Yes'
 
 # Scan for top-level classes
+fileContent = open(os.path.join("./avm2/lib/nat/initializeBuiltins.ts"), "r")
+lines = fileContent.read()
 for key, value in matrix[topLevelKey].items():
-    matrix[topLevelKey][key]['awayfl'] = 'Not yet set'
+    if key in lines:
+        matrix[topLevelKey][key]['awayfl'] = 'Yes'
 
 #  Parse Shumway files
 dir = './shumway/src/flash'
@@ -630,6 +633,13 @@ for file in files:
         for key, value in matrix[topLevelKey].items():
             if fileKey.lower() == key.lower():
                 matrix[topLevelKey][key]['shumway'] = 'Yes'
+
+# Scan for top-level classes
+fileContent = open(os.path.join("./shumway/src/avm2/nat.ts"), "r")
+lines = fileContent.read()
+for key, value in matrix[topLevelKey].items():
+    if key in lines:
+        matrix[topLevelKey][key]['shumway'] = 'Yes'
 
 # Use https://github.com/mozilla/shumway/blob/16451d8836fa85f4b16eeda8b4bda2fa9e2b22b0/utils/playerglobal-builder/manifest.json
 # for better understanding of what is supported.

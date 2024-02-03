@@ -11,6 +11,10 @@ cd playerglobal
 git pull
 cd ..
 
+cd avm2
+git pull
+cd ..
+
 cd shumway
 git pull
 cd ..
