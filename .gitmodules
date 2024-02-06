@@ -13,3 +13,6 @@
 [submodule "playerglobal"]
 	path = playerglobal
 	url = https://github.com/awayfl/playerglobal.git
+[submodule "avm2"]
+	path = avm2
+	url = https://github.com/awayfl/avm2.git

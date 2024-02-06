@@ -6,44 +6,46 @@ import re
 import datetime
 import re
 
-
+topLevelKey = 'top-level'
 fileName = 'flash-matrix.json'
 dt_date = datetime.datetime.now()
-
-#ArgumentError
-#Array
-#Boolean
-#Class
-#Date
-#DefinitionError
-#Error
-#EvalError
-#Function
-#int
-#JSON
-#Math
-#Namespace
-#Number
-#Object
-#QName
-#RangeError
-#ReferenceError
-#RegExp
-#SecurityError
-#String
-#SyntaxError
-#TypeError
-#uint
-#UninitializedError
-#URIError
-#VerifyError
-#XML
-#XMLList
 
 featureMatrix = {
     'modifiedOn': dt_date.strftime("%A, %d %b %Y"),
     'matrix':
     {
+        'top-level': {
+            'ArgumentError':dict(),
+            'arguments':dict(),
+            'Array':dict(),
+            'Boolean':dict(),
+            'Class':dict(),
+            'Date':dict(),
+            'DefinitionError':dict(),
+            'Error':dict(),
+            'EvalError':dict(),
+            'Function':dict(),
+            'int':dict(),
+            'JSON':dict(),
+            'Math':dict(),
+            'Namespace':dict(),
+            'Number':dict(),
+            'Object':dict(),
+            'QName':dict(),
+            'RangeError':dict(),
+            'ReferenceError':dict(),
+            'RegExp':dict(),
+            'SecurityError':dict(),
+            'String':dict(),
+            'SyntaxError':dict(),
+            'TypeError':dict(),
+            'uint':dict(),
+            'URIError':dict(),
+            'Vector':dict(),
+            'VerifyError':dict(),
+            'XML':dict(),
+            'XMLList':dict()
+        },
         'accessibility' : { # Checked
             'Accessibility':dict(),
             'AccessibilityImplementation':dict(),
@@ -597,6 +599,13 @@ for subdir, dirs, files in os.walk(dir):
                     else:
                         matrix[subDirKey][fileKey]['awayfl'] = 'Yes'
 
+# Scan for top-level classes
+fileContent = open(os.path.join("./avm2/lib/nat/initializeBuiltins.ts"), "r")
+lines = fileContent.read()
+for key, value in matrix[topLevelKey].items():
+    if key in lines:
+        matrix[topLevelKey][key]['awayfl'] = 'Yes'
+
 #  Parse Shumway files
 dir = './shumway/src/flash'
 for subdir, dirs, files in os.walk(dir):
@@ -615,11 +624,27 @@ for subdir, dirs, files in os.walk(dir):
                     else:
                         matrix[subDirKey][fileKey]['shumway'] = 'Yes'
 
+# Scan for top-level classes
+dir = './shumway/src/libs/builtin/'
+files = os.listdir(dir)
+for file in files:
+    if file.endswith('.as'):
+        fileKey = file.replace('.as', '')
+        for key, value in matrix[topLevelKey].items():
+            if fileKey.lower() == key.lower():
+                matrix[topLevelKey][key]['shumway'] = 'Yes'
+
+# Scan for top-level classes
+fileContent = open(os.path.join("./shumway/src/avm2/nat.ts"), "r")
+lines = fileContent.read()
+for key, value in matrix[topLevelKey].items():
+    if key in lines:
+        matrix[topLevelKey][key]['shumway'] = 'Yes'
+
 # Use https://github.com/mozilla/shumway/blob/16451d8836fa85f4b16eeda8b4bda2fa9e2b22b0/utils/playerglobal-builder/manifest.json
 # for better understanding of what is supported.
 
 # Parse Gnash files
-
 dir = './gnash/libcore/'
 for subdir, dirs, files in os.walk(dir):
     for file in files:
@@ -704,9 +729,7 @@ for subdir, dirs, files in os.walk(dir):
 matrix['crypto']['crypto']['lightspark'] = 'Yes'
 
 # Parse Ruffle files
-
-dir = './ruffle/core/src/avm2/globals/flash/'
-
+dir = './ruffle/core/src/avm2/globals/'
 def ruffleFileKey(fileName):
     fileKey = fileName.replace('.rs', '')
     fileKey = fileKey.replace('.as', '')
@@ -715,7 +738,7 @@ def ruffleFileKey(fileName):
     return fileKey
 
 # We assume here that if the file exists then it is implemented 100%
-for subdir, dirs, files in os.walk(dir):
+for subdir, dirs, files in os.walk(dir + 'flash/'):
     for file in files:
         if file.endswith('.rs') or file.endswith('.as'):
             fileKey = ruffleFileKey(file)
@@ -724,8 +747,17 @@ for subdir, dirs, files in os.walk(dir):
                     if fileKey.lower() == key.lower():
                         matrix[item][key]['ruffle'] = 'Yes'
 
+# Scan for top-level classes
+files = os.listdir(dir)
+for file in files:
+    if file.endswith('.rs') or file.endswith('.as'):
+        fileKey = ruffleFileKey(file)
+        for key, value in matrix[topLevelKey].items():
+            if fileKey.lower() == key.lower():
+                matrix[topLevelKey][key]['ruffle'] = 'Yes'
+
 # Find "Not implemented in all features to set as partially complete"
-for subdir, dirs, files in os.walk(dir):
+for subdir, dirs, files in os.walk(dir + 'flash/'):
     for file in files:
         if file.endswith('.rs') or file.endswith('.as'):
             fileReader = open(os.path.join(subdir, file), "r")

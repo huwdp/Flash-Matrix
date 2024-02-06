@@ -13,25 +13,33 @@ function replaceNames(name) {
 
 function buildStatsData(players, matrix) {
   let output = [];
+
+  let total = 0;
+  for (const category in matrix)
+    for (const feature in matrix[category])
+      total++;
+
   for (const player in players) {
       const name = players[player];
-      let playerFeatureCount = 0; // TODO: Rename this
-      let playerFeatureIncludingPartialCount = 0; // TODO: Rename this
+      let playerPartialAPIImplemtionCount = 0;
+      let playerAPIImplemtionCount = 0;
       for (const category in matrix) {
-          for (const feature in matrix[category]) {
-              if (matrix[category][feature][players[player]] === "Yes") {
-                  playerFeatureCount++;
-                  playerFeatureIncludingPartialCount++;
-              }
-              if (matrix[category][feature][players[player]] === "Partially") {
-                  playerFeatureIncludingPartialCount++;
-              }
+        for (const feature in matrix[category]) {
+          if (matrix[category][feature][players[player]] === "Yes") {
+            playerPartialAPIImplemtionCount++;
+            playerAPIImplemtionCount++;
           }
+          if (matrix[category][feature][players[player]] === "Partially") {
+            playerAPIImplemtionCount++;
+          }
+        }
       }
       output.push({
         "name": name,
-        "featureCount": playerFeatureCount,
-        "allFeatureCount": playerFeatureIncludingPartialCount
+        "playerPartialAPIImplemtionCount": playerPartialAPIImplemtionCount,
+        "playerPartialAPIImplemtionPercentage": playerPartialAPIImplemtionCount/total*100,
+        "playerAPIImplemtionCount": playerAPIImplemtionCount,
+        "playerAPIImplemtionPercentage": playerAPIImplemtionCount/total*100,
       });
   }
   return output;
@@ -83,7 +91,7 @@ function Header()
   );
 }
 
-function FlashStats({players, stats})
+function FlashStats({total, players, stats})
 {
   return (
     <>
@@ -94,8 +102,8 @@ function FlashStats({players, stats})
       {stats.map(row =>
         <tr>
           <td>{replaceNames(row.name)}</td>
-          <td>{row.featureCount} ({Number(row.featureCount/flashTotalClassCount*100).toFixed(2)}%)</td>
-          <td>{row.allFeatureCount} ({Number(row.allFeatureCount/flashTotalClassCount*100).toFixed(2)}%)</td>
+          <td>{row.playerPartialAPIImplemtionCount} ({Number(row.playerPartialAPIImplemtionPercentage).toFixed(2)}%)</td>
+          <td>{row.playerAPIImplemtionCount} ({Number(row.playerAPIImplemtionPercentage).toFixed(2)}%)</td>
         </tr>
       )}
       </tbody>
@@ -142,10 +150,9 @@ function FlashMatrixTable({namespaceName, players, matrix})
 
 function FlashMatrixTableLine({namespaceName, className, players, matrix})
 {
-  const url = 'https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/' + namespaceName + '/' + className + '.html';
   return (
     <tr>
-      <td className="featureName"><a className="featureUrl" href={url}>{className}</a></td>
+      <td className="featureName">{className}</td>
       {players.map(player =>
         <FlashMatrixTableLineCell text={matrix[namespaceName][className][player]} />
       )}
@@ -165,6 +172,12 @@ function FlashMatrixTableLineCell({text})
   {
     return (
       <td className="yellow-bg">{text}</td>
+    );
+  }
+  if (text === "Not yet set")
+  {
+    return (
+      <td className="grey-bg">{text}</td>
     );
   }
   return (

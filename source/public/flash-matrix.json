@@ -1,6 +1,248 @@
 {
-  "modifiedOn": "Saturday, 03 Feb 2024",
+  "modifiedOn": "Tuesday, 06 Feb 2024",
   "matrix": {
+    "top-level": {
+      "ArgumentError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "arguments": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "No",
+        "awayfl": "No"
+      },
+      "Array": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Boolean": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Class": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Partially",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Date": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "DefinitionError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Error": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "EvalError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Function": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "int": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "JSON": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Math": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Namespace": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Partially",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Number": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Object": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Partially",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "QName": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "RangeError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "ReferenceError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "RegExp": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "SecurityError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "String": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "SyntaxError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "TypeError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "uint": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "URIError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "Vector": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "VerifyError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "XML": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Partially",
+        "gnash": "Yes",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
+      "XMLList": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Partially",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      }
+    },
     "accessibility": {
       "Accessibility": {
         "adobeflash": "Yes",
