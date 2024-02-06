@@ -84,7 +84,7 @@ function Header()
   return (
     <>
     <h1>Flash Player Matrix</h1>
-    <p>The matrix gives approximate support of <a href="https://mozilla.github.io/shumway/">Shumway</a>, <a href="https://lightspark.github.io/">Lightspark</a>, <a href="https://www.gnu.org/software/gnash/">Gnash</a>, <a href="https://ruffle.rs/">Ruffle</a> and <a href="https://awayfl.org/">AwayFL</a> flash players compared the defacto standard Adobe Flash Player. <i>The matrix is not 100% correct due to the difficulty in measuring API support within the source code of each Flash Player.</i>
+    <p>The matrix gives approximate support of <a href="https://github.com/mozilla/shumway">Shumway</a>, <a href="https://lightspark.github.io/">Lightspark</a>, <a href="https://www.gnu.org/software/gnash/">Gnash</a>, <a href="https://ruffle.rs/">Ruffle</a> and <a href="https://awayfl.org/">AwayFL</a> flash players compared the defacto standard Adobe Flash Player. <i>The matrix is not 100% correct due to the difficulty in measuring API support within the source code of each Flash Player.</i>
   </p>
   <p>Adobe Flash support ended on December 31, 2020. Click <a href="https://www.adobe.com/products/flashplayer/end-of-life.html#">here</a> for information about the end of life support.</p>
   </>
