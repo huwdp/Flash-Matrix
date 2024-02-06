@@ -202,6 +202,14 @@
         "ruffle": "Yes",
         "awayfl": "Yes"
       },
+      "UninitializedError": {
+        "adobeflash": "Yes",
+        "shumway": "Yes",
+        "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "Yes"
+      },
       "URIError": {
         "adobeflash": "Yes",
         "shumway": "Yes",
