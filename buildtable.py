@@ -340,6 +340,7 @@ featureMatrix = {
             'H264Profile': dict(),
             'H264VideoStreamSettings': dict(),
             'ID3Info': dict(),
+            'Media': dict(),
             #MediaPromise AIR
             #MediaType AIR
             'Microphone': dict(),
@@ -369,6 +370,7 @@ featureMatrix = {
             #'InterfaceAddress': dict(), AIR
             #'IPVersion': dict(), AIR
             'LocalConnection': dict(),
+            'Net': dict(),
             'NetConnection': dict(),
             'NetGroup': dict(),
             'NetGroupInfo': dict(),
@@ -421,12 +423,14 @@ featureMatrix = {
             #'PrintUIOptions': dict(), AIR
         },
         'profiler' : { # Checked
+            'Profiler': dict(),
             'Telemetry': dict()
         },
         'sampler' : { # Checked
             'DeleteObjectSample': dict(),
             'NewObjectSample': dict(),
             'Sample': dict(),
+            'Sampler': dict(),
             'StackFrame': dict()
         },
         'security' : { # Checked
@@ -562,7 +566,8 @@ featureMatrix = {
             'Timer': dict(),
             'ByteArray': dict(),
             'Dictionary': dict(),
-            'Proxy': dict()
+            'Proxy': dict(),
+            'utils': dict()
         },
         'xml': {
             'XMLDocument': dict(),

@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 06 Feb 2024",
+  "modifiedOn": "Friday, 16 Feb 2024",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -195,14 +195,6 @@
         "awayfl": "Yes"
       },
       "uint": {
-        "adobeflash": "Yes",
-        "shumway": "Yes",
-        "lightspark": "Yes",
-        "gnash": "No",
-        "ruffle": "Yes",
-        "awayfl": "Yes"
-      },
-      "UninitializedError": {
         "adobeflash": "Yes",
         "shumway": "Yes",
         "lightspark": "Yes",
@@ -1974,6 +1966,14 @@
         "ruffle": "No",
         "awayfl": "Yes"
       },
+      "Media": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
       "Microphone": {
         "adobeflash": "Yes",
         "shumway": "Partially",
@@ -2143,6 +2143,14 @@
         "gnash": "Yes",
         "ruffle": "Partially",
         "awayfl": "Yes"
+      },
+      "Net": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
       },
       "NetConnection": {
         "adobeflash": "Yes",
@@ -2462,6 +2470,14 @@
       }
     },
     "profiler": {
+      "Profiler": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
       "Telemetry": {
         "adobeflash": "Yes",
         "shumway": "Partially",
@@ -2495,6 +2511,14 @@
         "gnash": "No",
         "ruffle": "Yes",
         "awayfl": "Yes"
+      },
+      "Sampler": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
       },
       "StackFrame": {
         "adobeflash": "Yes",
@@ -3294,6 +3318,14 @@
         "adobeflash": "Yes",
         "shumway": "No",
         "lightspark": "Yes",
+        "gnash": "No",
+        "ruffle": "Yes",
+        "awayfl": "No"
+      },
+      "utils": {
+        "adobeflash": "Yes",
+        "shumway": "No",
+        "lightspark": "No",
         "gnash": "No",
         "ruffle": "Yes",
         "awayfl": "No"
