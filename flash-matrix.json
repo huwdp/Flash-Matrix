@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 06 Feb 2024",
+  "modifiedOn": "Sunday, 03 Mar 2024",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -202,7 +202,7 @@
         "ruffle": "Yes",
         "awayfl": "Yes"
       },
-      "UninitializedError": {
+      "URIError": {
         "adobeflash": "Yes",
         "shumway": "Yes",
         "lightspark": "Yes",
@@ -210,7 +210,7 @@
         "ruffle": "Yes",
         "awayfl": "Yes"
       },
-      "URIError": {
+      "UninitializedError": {
         "adobeflash": "Yes",
         "shumway": "Yes",
         "lightspark": "Yes",
@@ -1971,7 +1971,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "Microphone": {

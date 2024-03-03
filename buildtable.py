@@ -41,6 +41,7 @@ featureMatrix = {
             'TypeError':dict(),
             'uint':dict(),
             'URIError':dict(),
+            'UninitializedError': dict(),
             'Vector':dict(),
             'VerifyError':dict(),
             'XML':dict(),
