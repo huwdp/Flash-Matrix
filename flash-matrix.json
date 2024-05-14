@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 25 Apr 2024",
+  "modifiedOn": "Tuesday, 14 May 2024",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -2749,7 +2749,7 @@
         "shumway": "Yes",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "TextColorType": {
@@ -2797,7 +2797,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Partially"
       },
       "TextFormatAlign": {
