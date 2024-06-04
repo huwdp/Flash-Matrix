@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 14 May 2024",
+  "modifiedOn": "Tuesday, 04 Jun 2024",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -1563,7 +1563,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       }
     },
@@ -2633,7 +2633,7 @@
       "System": {
         "adobeflash": "Yes",
         "shumway": "Yes",
-        "lightspark": "Yes",
+        "lightspark": "Partially",
         "gnash": "Yes",
         "ruffle": "Partially",
         "awayfl": "Yes"
