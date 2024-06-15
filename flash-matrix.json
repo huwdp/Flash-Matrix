@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 04 Jun 2024",
+  "modifiedOn": "Saturday, 15 Jun 2024",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -3105,7 +3105,7 @@
         "shumway": "Yes",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "IIMEClient": {
@@ -3113,7 +3113,7 @@
         "shumway": "Yes",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       }
     },
