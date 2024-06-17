@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 15 Jun 2024",
+  "modifiedOn": "Monday, 17 Jun 2024",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -3313,7 +3313,7 @@
         "shumway": "No",
         "lightspark": "Partially",
         "gnash": "Yes",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "XMLNodeType": {
