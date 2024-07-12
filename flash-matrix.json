@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 17 Jun 2024",
+  "modifiedOn": "Friday, 12 Jul 2024",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -2221,7 +2221,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "NetStreamInfo": {
@@ -2253,7 +2253,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "ObjectEncoding": {
@@ -2375,7 +2375,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "DRMContentData": {
@@ -2423,7 +2423,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "VoucherAccessInfo": {
@@ -3071,7 +3071,7 @@
         "shumway": "Partially",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "TextLineValidity": {
