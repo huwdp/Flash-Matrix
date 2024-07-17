@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Friday, 12 Jul 2024",
+  "modifiedOn": "Wednesday, 17 Jul 2024",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -2157,7 +2157,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "NetGroupInfo": {
