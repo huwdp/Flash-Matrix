@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Wednesday, 17 Jul 2024",
+  "modifiedOn": "Saturday, 27 Jul 2024",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -1321,7 +1321,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "HTTPStatusEvent": {
