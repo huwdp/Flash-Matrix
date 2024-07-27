@@ -38,6 +38,8 @@ bash re-build-matrix.sh
 
  1. cd into source folder
  2. Run ```build.sh```
+ 3. Run ```npm start```
+ 4. Go to `http://localhost:3000/Flash-Matrix/`. It's important to put `/` at end of URL.
 
 ## License
 
