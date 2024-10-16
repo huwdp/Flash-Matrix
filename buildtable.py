@@ -698,7 +698,7 @@ lightsparkRegisters = [
 for file in lightsparkRegisters:
     fileContent = open(file, "r")
     lines = fileContent.read()
-    matches = re.findall('builtin\-\>registerBuiltin\("(\w+)",', lines)
+    matches = re.findall("builtin->registerBuiltin\\(\"(\\w+)\",", lines)
     for item in matrix:
         for match in matches:
             if match in matrix[item].keys():
@@ -711,17 +711,17 @@ for subdir, dirs, files in os.walk(dir):
         if file.endswith('.cpp'):
             fileContent = open(os.path.join(subdir, file), "r")
             lines = fileContent.read()
-            matches = re.findall('LOG\(LOG_NOT_IMPLEMENTED,\"(\w+) is not implemented', lines)
+            matches = re.findall("LOG\\(LOG_NOT_IMPLEMENTED,\"(\\w+) is not implemented", lines)
             for item in matrix:
                 for match in matches:
                     if match in matrix[item].keys():
                         matrix[item][match]['lightspark'] = 'Partially' # No
-            matches = re.findall('LOG\(LOG_NOT_IMPLEMENTED,\"(\w+)\.', lines)
+            matches = re.findall("LOG\\(LOG_NOT_IMPLEMENTED,\"(\\w+)\\.", lines)
             for item in matrix:
                 for match in matches:
                     if match in matrix[item].keys():
                         matrix[item][match]['lightspark'] = 'Partially'
-            matches = re.findall('ASFUNCTIONBODY_GETTER_NOT_IMPLEMENTED\((\w+)\,', lines)
+            matches = re.findall("ASFUNCTIONBODY_GETTER_NOT_IMPLEMENTED\\((\\w+)\\,", lines)
             for item in matrix:
                 for match in matches:
                     if match in matrix[item].keys():
@@ -765,7 +765,7 @@ for subdir, dirs, files in os.walk(dir + 'flash/'):
             content = fileReader.read()
             lines = content.split(";")
             for line in lines:
-                matches = re.findall('stub_.*?\(.*?\"(?:[^.]*\.)*(.*?)\"', line)
+                matches = re.findall('stub_.*?\\(.*?\"(?:[^.]*\\.)*(.*?)\"', line)
                 for item in matrix:
                     for match in matches:
                         if match in matrix[item].keys():
