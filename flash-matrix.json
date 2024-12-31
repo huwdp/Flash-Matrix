@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 15 Oct 2024",
+  "modifiedOn": "Tuesday, 31 Dec 2024",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -2741,7 +2741,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "StyleSheet": {
@@ -2795,7 +2795,7 @@
       "TextFormat": {
         "adobeflash": "Yes",
         "shumway": "Yes",
-        "lightspark": "Yes",
+        "lightspark": "Partially",
         "gnash": "Yes",
         "ruffle": "Yes",
         "awayfl": "Partially"
