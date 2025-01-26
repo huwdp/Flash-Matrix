@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 31 Dec 2024",
+  "modifiedOn": "Sunday, 26 Jan 2025",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -2895,7 +2895,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "FontDescription": {
