@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 26 Jan 2025",
+  "modifiedOn": "Sunday, 02 Feb 2025",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -3319,7 +3319,7 @@
       "XMLNodeType": {
         "adobeflash": "Yes",
         "shumway": "No",
-        "lightspark": "No",
+        "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
         "awayfl": "Yes"
