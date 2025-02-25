@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Sunday, 02 Feb 2025",
+  "modifiedOn": "Tuesday, 25 Feb 2025",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -1741,7 +1741,7 @@
       "Transform": {
         "adobeflash": "Yes",
         "shumway": "Partially",
-        "lightspark": "Yes",
+        "lightspark": "Partially",
         "gnash": "Yes",
         "ruffle": "Partially",
         "awayfl": "Yes"
@@ -2150,7 +2150,7 @@
         "lightspark": "Yes",
         "gnash": "Yes",
         "ruffle": "Yes",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "NetGroup": {
         "adobeflash": "Yes",
@@ -2270,7 +2270,7 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "SecureSocket": {
         "adobeflash": "Yes",
@@ -2302,7 +2302,7 @@
         "lightspark": "Partially",
         "gnash": "No",
         "ruffle": "Partially",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "URLLoader": {
         "adobeflash": "Yes",
