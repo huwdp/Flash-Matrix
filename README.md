@@ -8,12 +8,6 @@ The matrix gives approximate ActionScript 3 (AS3) support of Shumway, Lightspark
 
 ```
 sudo apt-get install python3 git
-git clone https://github.com/mozilla/shumway.git
-git clone https://github.com/strk/gnash.git
-git clone https://github.com/lightspark/lightspark.git
-git clone https://github.com/ruffle-rs/ruffle.git
-git clone https://github.com/awayfl/playerglobal.git
-git clone https://github.com/awayfl/avm2.git
 ```
 
 ### Inatall

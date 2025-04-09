@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Saturday, 27 Jul 2024",
+  "modifiedOn": "Tuesday, 08 Apr 2025",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -1741,7 +1741,7 @@
       "Transform": {
         "adobeflash": "Yes",
         "shumway": "Partially",
-        "lightspark": "Yes",
+        "lightspark": "Partially",
         "gnash": "Yes",
         "ruffle": "Partially",
         "awayfl": "Yes"
@@ -1769,7 +1769,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "CollatorMode": {
@@ -1873,7 +1873,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       }
     },
@@ -2150,7 +2150,7 @@
         "lightspark": "Yes",
         "gnash": "Yes",
         "ruffle": "Yes",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "NetGroup": {
         "adobeflash": "Yes",
@@ -2270,7 +2270,7 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "SecureSocket": {
         "adobeflash": "Yes",
@@ -2302,7 +2302,7 @@
         "lightspark": "Partially",
         "gnash": "No",
         "ruffle": "Partially",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "URLLoader": {
         "adobeflash": "Yes",
@@ -2537,7 +2537,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       }
     },
@@ -2741,7 +2741,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Partially",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "StyleSheet": {
@@ -2795,7 +2795,7 @@
       "TextFormat": {
         "adobeflash": "Yes",
         "shumway": "Yes",
-        "lightspark": "Yes",
+        "lightspark": "Partially",
         "gnash": "Yes",
         "ruffle": "Yes",
         "awayfl": "Partially"
@@ -2895,7 +2895,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "FontDescription": {
@@ -3319,7 +3319,7 @@
       "XMLNodeType": {
         "adobeflash": "Yes",
         "shumway": "No",
-        "lightspark": "No",
+        "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
         "awayfl": "Yes"
