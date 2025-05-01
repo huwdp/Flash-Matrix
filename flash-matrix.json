@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Tuesday, 08 Apr 2025",
+  "modifiedOn": "Thursday, 01 May 2025",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -2123,7 +2123,7 @@
       "FileReferenceList": {
         "adobeflash": "Yes",
         "shumway": "Partially",
-        "lightspark": "No",
+        "lightspark": "Partially",
         "gnash": "Yes",
         "ruffle": "Partially",
         "awayfl": "No"
@@ -2771,7 +2771,7 @@
       "TextField": {
         "adobeflash": "Yes",
         "shumway": "Partially",
-        "lightspark": "Yes",
+        "lightspark": "Partially",
         "gnash": "Yes",
         "ruffle": "Partially",
         "awayfl": "Yes"
