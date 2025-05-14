@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 01 May 2025",
+  "modifiedOn": "Wednesday, 14 May 2025",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -801,7 +801,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "StageAlign": {
