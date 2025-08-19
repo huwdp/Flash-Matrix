@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 26 Jun 2025",
+  "modifiedOn": "Monday, 18 Aug 2025",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -1345,7 +1345,7 @@
         "shumway": "Yes",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "IOErrorEvent": {
@@ -2051,7 +2051,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "StageVideoAvailability": {
@@ -2399,7 +2399,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "DRMPlaybackTimeWindow": {
@@ -2407,7 +2407,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "DRMVoucher": {
@@ -2415,7 +2415,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "LoadVoucherSetting": {
@@ -2595,7 +2595,7 @@
         "shumway": "Partially",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "MessageChannelState": {
@@ -2667,7 +2667,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "WorkerDomain": {
@@ -2675,7 +2675,7 @@
         "shumway": "No",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "WorkerState": {
@@ -3279,7 +3279,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "Dictionary": {
