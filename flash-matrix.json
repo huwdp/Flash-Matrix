@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 18 Aug 2025",
+  "modifiedOn": "Monday, 06 Oct 2025",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -673,7 +673,7 @@
         "shumway": "Yes",
         "lightspark": "Yes",
         "gnash": "Yes",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Partially"
       },
       "PixelSnapping": {
@@ -3047,7 +3047,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "TextLine": {
