@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Monday, 06 Oct 2025",
+  "modifiedOn": "Thursday, 20 Nov 2025",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -369,7 +369,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "Bitmap": {
@@ -785,7 +785,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "Yes"
       },
       "Stage": {
@@ -1037,7 +1037,7 @@
         "shumway": "No",
         "lightspark": "Partially",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       }
     },
@@ -3305,7 +3305,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "XMLNode": {
