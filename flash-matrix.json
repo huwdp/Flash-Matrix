@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 20 Nov 2025",
+  "modifiedOn": "Sunday, 31 May 2026",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -1193,7 +1193,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "DRMDeviceGroupEvent": {
@@ -1201,7 +1201,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "DRMErrorEvent": {
@@ -1209,7 +1209,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "DRMLicenseRequestEvent": {
@@ -1225,7 +1225,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "DRMReturnVoucherCompleteEvent": {
@@ -1249,7 +1249,7 @@
         "shumway": "No",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "No"
       },
       "ErrorEvent": {
@@ -1385,7 +1385,7 @@
         "shumway": "Yes",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "NetStatusEvent": {
@@ -2383,7 +2383,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "DRMDeviceGroup": {
@@ -2391,7 +2391,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "DRMManager": {
@@ -2431,7 +2431,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "No",
+        "ruffle": "Partially",
         "awayfl": "No"
       }
     },
