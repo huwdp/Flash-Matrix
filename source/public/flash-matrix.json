@@ -1,5 +1,5 @@
 {
-  "modifiedOn": "Thursday, 16 Jul 2026",
+  "modifiedOn": "Wednesday, 30 Sep 2026",
   "matrix": {
     "top-level": {
       "ArgumentError": {
@@ -474,7 +474,7 @@
         "lightspark": "Partially",
         "gnash": "No",
         "ruffle": "Partially",
-        "awayfl": "Yes"
+        "awayfl": "Partially"
       },
       "GraphicsBitmapFill": {
         "adobeflash": "Yes",
@@ -482,7 +482,7 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "GraphicsEndFill": {
         "adobeflash": "Yes",
@@ -490,7 +490,7 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "GraphicsGradientFill": {
         "adobeflash": "Yes",
@@ -498,7 +498,7 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "GraphicsPath": {
         "adobeflash": "Yes",
@@ -538,7 +538,7 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "GraphicsStroke": {
         "adobeflash": "Yes",
@@ -546,7 +546,7 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "GraphicsTrianglePath": {
         "adobeflash": "Yes",
@@ -554,7 +554,7 @@
         "lightspark": "Yes",
         "gnash": "No",
         "ruffle": "Yes",
-        "awayfl": "No"
+        "awayfl": "Yes"
       },
       "IBitmapDrawable": {
         "adobeflash": "Yes",
@@ -1321,7 +1321,7 @@
         "shumway": "No",
         "lightspark": "No",
         "gnash": "No",
-        "ruffle": "Yes",
+        "ruffle": "Partially",
         "awayfl": "No"
       },
       "HTTPStatusEvent": {
@@ -3047,7 +3047,7 @@
         "shumway": "Partially",
         "lightspark": "Yes",
         "gnash": "No",
-        "ruffle": "Partially",
+        "ruffle": "Yes",
         "awayfl": "Yes"
       },
       "TextLine": {
